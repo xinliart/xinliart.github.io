@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>心灵革命</title>
+  
+  <subtitle>为您坚守梦想</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-04-26T15:34:23.853Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>张名桢</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>革命的原理</title>
+    <link href="http://yoursite.com/2018/09/07/ge-ming/"/>
+    <id>http://yoursite.com/2018/09/07/ge-ming/</id>
+    <published>2018-09-07T01:25:00.000Z</published>
+    <updated>2019-04-26T15:34:23.853Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="革命" scheme="http://yoursite.com/categories/%E9%9D%A9%E5%91%BD/"/>
+    
+    
+      <category term="社会学" scheme="http://yoursite.com/tags/%E7%A4%BE%E4%BC%9A%E5%AD%A6/"/>
+    
+      <category term="伦理" scheme="http://yoursite.com/tags/%E4%BC%A6%E7%90%86/"/>
+    
+      <category term="苦闷" scheme="http://yoursite.com/tags/%E8%8B%A6%E9%97%B7/"/>
+    
+  </entry>
+  
+</feed>
