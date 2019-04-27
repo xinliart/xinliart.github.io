@@ -2,7 +2,7 @@
 /*小屏幕下(手机类)的样式*/
 @media only screen and (max-width: 601px) {
     .container {
-        width: 95%;
+        width: 111%;
     }
 }
 
@@ -162,8 +162,17 @@ mark {
     margin-bottom: 0;
 }
 
+/* 整体背景颜色，包括导航、移动端的导航、页尾、标签页等的背景颜色. */
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, ##696969 0%, #000000 100%);
+}
+
+@-webkit-keyframes rainbow {
+   /* 动态切换背景颜色. */
+}
+
+@keyframes rainbow {
+    /* 动态切换背景颜色. */
 }
 
 .text-color {
