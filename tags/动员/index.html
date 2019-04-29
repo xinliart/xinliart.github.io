@@ -4,8 +4,8 @@
 
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="分类, 心理咨询 在线秘书 抑郁 自杀 梦想 革命 社会学 心理学 零审查博客 自由 写作 成长 教育 苦闷">
-    <meta name="description" content="分类 | 心灵革命">
+    <meta name="keywords" content="标签: 动员, 心理咨询 在线秘书 抑郁 自杀 梦想 革命 社会学 心理学 零审查博客 自由 写作 成长 教育 苦闷">
+    <meta name="description" content="标签: 动员 | 心灵革命">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>分类 | 心灵革命</title>
+    <title>标签: 动员 | 心灵革命</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -283,23 +283,53 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 
     
 
-<div id="category-cloud" class="container chip-container">
+<div id="tags" class="container chip-container">
     <div class="card">
         <div class="card-content">
             <div class="tag-title center-align">
-                <i class="fa fa-bookmark"></i>&nbsp;&nbsp;文章分类
+                <i class="fa fa-tags"></i>&nbsp;&nbsp;文章标签
             </div>
             <div class="tag-chips">
                 
                 
-                
-                <a href="/categories/革命/" title="革命: 3">
+                <a href="/tags/社会学/" title="社会学: 3">
                     <span class="chip center-align waves-effect waves-light
-                             chip-default " style="background-color: #F9EBEA;">革命
+                             chip-default " data-tagname="社会学" style="background-color: #F9EBEA;">社会学
                         <span class="tag-length">3</span>
                     </span>
                 </a>
                 
+                
+                <a href="/tags/伦理/" title="伦理: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " data-tagname="伦理" style="background-color: #F5EEF8;">伦理
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/动员/" title="动员: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active " data-tagname="动员" style="background-color: #D5F5E3;">动员
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/革命/" title="革命: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " data-tagname="革命" style="background-color: #E8F8F5;">革命
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/苦闷/" title="苦闷: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " data-tagname="苦闷" style="background-color: #FEF9E7;">苦闷
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
                 
             </div>
         </div>
@@ -307,64 +337,76 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 </div>
 
     
-    <style type="text/css">
-    #category-radar {
-        width: 100%;
-        height: 360px;
-    }
-</style>
 
-<div class="container" data-aos="fade-up">
-    <div class="card">
-        <div id="category-radar" class="card-content"></div>
-    </div>
-</div>
-
-<script type="text/javascript" src="/libs/echarts/echarts.min.js"></script>
-<script type="text/javascript">
-    let radarChart = echarts.init(document.getElementById('category-radar'));
-
-    
-
-    let option = {
-        title: {
-            left: 'center',
-            text: '文章分类雷达图',
-            textStyle: {
-                fontWeight: 500,
-                fontSize: 22
-            }
-        },
-        tooltip: {},
-        radar: {
-            name: {
-                textStyle: {
-                    color: '#3C4858'
-                }
-            },
-            indicator: [{"name":"革命","max":6}],
-            nameGap: 5,
-            center: ['50%','55%'],
-            radius: '66%'
-        },
-        series: [{
-            type: 'radar',
-            color: ['#3ecf8e'],
-            itemStyle: {normal: {areaStyle: {type: 'default'}}},
-            data : [
-                {
-                    value : [3],
-                    name : '文章分类数量'
-                }
-            ]
-        }]
-    };
-
-    radarChart.setOption(option);
-</script>
-    
-
+    <article id="articles" class="container articles">
+        <div class="row tags-posts">
+            
+            
+            <div class="article tag-post col s12 m6 l4 overflow-policy" data-tags="社会学, 动员, 革命" data-aos="fade-up">
+                <div class="card">
+                    <a href="/2018/09/07/xian-dai-zheng-zhi/">
+                        <div class="card-image tag-image">
+                            
+                            <img src="/source/images/xxx.jpg" class="responsive-img" alt="现代政治">
+                            
+                            <span class="card-title">现代政治</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-07
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/革命/" class="post-category" target="_blank">
+                                革命
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="article tag-post col s12 m6 l4 overflow-policy" data-tags="社会学, 伦理, 动员" data-aos="fade-up">
+                <div class="card">
+                    <a href="/2018/09/07/yi-ge-guo-jia-de-guang-rong/">
+                        <div class="card-image tag-image">
+                            
+                            <img src="/source/images/xxx.jpg" class="responsive-img" alt="一个国家的光荣">
+                            
+                            <span class="card-title">一个国家的光荣</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-09-07
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/革命/" class="post-category" target="_blank">
+                                革命
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </article>
 </main>
+
 
 <footer class="page-footer bg-color">
     <div class="container row center-align">
