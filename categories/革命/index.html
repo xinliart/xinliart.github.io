@@ -2,617 +2,1372 @@
 <html>
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="utf-8">
-  <meta name="baidu-site-verification" content="L6Lm9d5Crl">
-  
-  
-   
-    <meta name="keywords" content="革命">
-  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
   <title>Category: 革命 | 心灵革命</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="心理咨询 在线秘书 抑郁 自杀 梦想 革命 社会学 心理学 零审查博客 自由 写作 成长 教育 苦闷">
+  
+  
   <meta name="description" content="本心理援助中心每天提供20小时免费的秘书服务">
-<meta name="keywords" content="心理咨询 在线秘书 抑郁 自杀 梦想 革命 社会学 心理学 零审查博客 自由 写作 成长 教育 苦闷">
-<meta property="og:type" content="website">
-<meta property="og:title" content="心灵革命">
-<meta property="og:url" content="http://yoursite.com/categories/革命/index.html">
-<meta property="og:site_name" content="心灵革命">
-<meta property="og:description" content="本心理援助中心每天提供20小时免费的秘书服务">
-<meta property="og:locale" content="zh-CN">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="心灵革命">
-<meta name="twitter:description" content="本心理援助中心每天提供20小时免费的秘书服务">
   
-    <link rel="alternative" href="/atom.xml" title="心灵革命" type="application/atom+xml">
+
   
+  <link rel="alternate" href="/atom.xml" title="心灵革命">
   
-    <link rel="icon" href="/img/favicon.png">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- meta -->
   
+
+  <!-- link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
   
-  <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css">
   
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.6.3/css/all.min.css">
   
+
   
-      <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
   
-  <!-- 加载特效 -->
-    <script src="/js/pace.js"></script>
-    <link href="/css/pace/pace-theme-flash.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@19.4.19/css/style.css">
+  
+
   <script>
-      var yiliaConfig = {
-          fancybox: true,
-          animate: true,
-          isHome: false,
-          isPost: false,
-          isArchive: false,
-          isTag: false,
-          isCategory: true,
-          open_in_new: false
-      }
+    function setLoadingBarProgress(num) {
+      document.getElementById('loading-bar').style.width=num+"%";
+    }
   </script>
-</head></html>
+
+  
+  
+</head>
+
 <body>
-  <div id="container">
-    <div class="left-col">
-    <div class="overlay"></div>
-<div class="intrude-less">
-    <header id="header" class="inner">
+  
+  
+  <div class="cover-wrapper">
+    <cover class="cover  half">
+      
         
-<script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+  <h1 class="title">Material X</h1>
 
-        <a href="/" class="profilepic">
-            
-            <img lazy-src="/img/avatar.png" class="js-avatar">
-            
-        </a>
-        <hgroup>
-          <h1 class="header-author"><a href="/">张名桢</a></h1>
-        </hgroup>
-        
-        <p class="header-subtitle">为您坚守梦想</p>
-        
-        
-            <form>
-                <input type="text" class="st-default-search-input search" id="local-search-input" placeholder="搜索一下" autocomplete="off">
-            </form>
-            <div id="local-search-result"></div>
-        
-        
-            <script type="text/javascript">
-                (function() {
-                    'use strict';
-                    function getMatchData(keyword, data) {
-                        var matchData = [];
-                        for(var i =0;i<data.length;i++){
-                            if(data[i].title.toLowerCase().indexOf(keyword)>=0) 
-                                matchData.push(data[i])
-                        }
-                        return matchData;
-                    }
-                    var $input = $('#local-search-input');
-                    var $resultContent = $('#local-search-result');
-                    $input.keyup(function(){
-                        $.ajax({
-                            url: '/search.json',
-                            dataType: "json",
-                            success: function( json ) {
-                                var str='<ul class=\"search-result-list\">';                
-                                var keyword = $input.val().trim().toLowerCase();
-                                $resultContent.innerHTML = "";
-                                if ($input.val().trim().length <= 0) {
-                                    $resultContent.empty();
-                                    $('#switch-area').show();
-                                    return;
-                                }
-                                var results = getMatchData(keyword, json);
-                                if(results.length === 0){
-                                    $resultContent.empty();
-                                    $('#switch-area').show();
-                                    return;
-                                } 
-                                for(var i =0; i<results.length; i++){
-                                    str += "<li><a href='"+ results[i].url +"' class='search-result-title'>"+ results[i].title +"</a></li>";
-                                }
-                                str += "</ul>";
-                                $resultContent.empty();
-                                $resultContent.append(str);
-                                $('#switch-area').hide();
-                            }
-                        });
-                    });
-                })();
-            </script>
-        
-        
-            <div id="switch-btn" class="switch-btn">
-                <div class="icon">
-                    <div class="icon-ctn">
-                        <div class="icon-wrap icon-house" data-idx="0">
-                            <div class="birdhouse"></div>
-                            <div class="birdhouse_holes"></div>
-                        </div>
-                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
-                            <div class="ribbon"></div>
-                        </div>
-                        
-                        <div class="icon-wrap icon-link hide" data-idx="2">
-                            <div class="loopback_l"></div>
-                            <div class="loopback_r"></div>
-                        </div>
-                        
-                        
-                        <div class="icon-wrap icon-me hide" data-idx="3">
-                            <div class="user"></div>
-                            <div class="shoulder"></div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="tips-box hide">
-                    <div class="tips-arrow"></div>
-                    <ul class="tips-inner">
-                        <li>菜单</li>
-                        <li>标签</li>
-                        
-                        <li>友情链接</li>
-                        
-                        
-                        <li>关于我</li>
-                        
-                    </ul>
-                </div>
-            </div>
-        
-        <div id="switch-area" class="switch-area">
-            <div class="switch-wrap">
-                <section class="switch-part switch-part1">
-                    <nav class="header-menu">
-                        <ul>
-                        
-                            <li><a href="/archives/">所有文章</a></li>
-                        
-                            <li><a href="/categories/开发工具/">玩转开发工具</a></li>
-                        
-                            <li><a href="/categories/digital">玩转数码</a></li>
-                        
-                            <li><a href="/categories/algorithm">算法学习</a></li>
-                        
-                            <li><a href="/about/">关于我</a></li>
-                        
-                        </ul>
-                    </nav>
-                    <nav class="header-nav">
-                        <ul class="social">
-                            
-                                <a class="fl github" target="_blank" href="/xxxxx" title="github">github</a>
-                            
-                                <a class="fl weibo" target="_blank" href="/xxxxxxxx" title="weibo">weibo</a>
-                            
-                                <a class="fl rss" target="_blank" href="/atom.xml" title="rss">rss</a>
-                            
-                        </ul>
-                    </nav>
-                </section>
-                
-                <section class="switch-part switch-part2">
-                    <div class="widget tagcloud" id="js-tagcloud">
-                        <a href="/tags/伦理/" style="font-size: 17.5px;">伦理</a> <a href="/tags/写作/" style="font-size: 10px;">写作</a> <a href="/tags/动员/" style="font-size: 12.5px;">动员</a> <a href="/tags/历史/" style="font-size: 10px;">历史</a> <a href="/tags/影评/" style="font-size: 10px;">影评</a> <a href="/tags/教育学/" style="font-size: 10px;">教育学</a> <a href="/tags/演讲素材/" style="font-size: 10px;">演讲素材</a> <a href="/tags/现代史/" style="font-size: 10px;">现代史</a> <a href="/tags/社会学/" style="font-size: 20px;">社会学</a> <a href="/tags/苦闷/" style="font-size: 15px;">苦闷</a> <a href="/tags/革命/" style="font-size: 10px;">革命</a>
-                    </div>
-                </section>
-                
-                
-                <section class="switch-part switch-part3">
-                    <div id="js-friends">
-                    
-                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://blog.csdn.net/baidu_21483933">csdn</a>
-                    
-                      <a target="_blank" class="main-nav-link switch-friends-link" href="https://segmentfault.com/blog/maocg_web">segmentfault</a>
-                    
-                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.jianshu.com/users/eb37ef89c746/latest_articles">简书</a>
-                    
-                    </div>
-                </section>
-                
-                
-                
-                <section class="switch-part switch-part4">
-                
-                    <div id="js-aboutme">爱动漫,爱游戏,爱编程,爱运动,爱的太多了!</div>
-                </section>
-                
-            </div>
-        </div>
-    </header>
+
+  <div class="m_search">
+    <form name="searchform" class="form u-search-form">
+      <input type="text" class="input u-search-input" placeholder>
+      <i class="icon fas fa-search fa-fw"></i>
+    </form>
+  </div>
+
+<div class="menu navgation">
+  <ul class="h-list">
+    
+      
+        <li>
+          <a class="nav home" href="/" id="home">
+            <i class="fas fa-rss fa-fw"></i>&nbsp;革命无罪
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home" href="/projects/" id="projects">
+            <i class="fas fa-code-branch fa-fw"></i>&nbsp;诉说理想
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home" href="/friends/" rel="nofollow" id="friends">
+            <i class="fas fa-link fa-fw"></i>&nbsp;轻松一下
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home" href="/about/" rel="nofollow" id="about">
+            <i class="fas fa-info-circle fa-fw"></i>&nbsp;寻求帮助
+          </a>
+        </li>
+      
+    
+  </ul>
 </div>
 
-    </div>
-    <div class="mid-col">
-      <nav id="mobile-nav">
-      <div class="overlay">
-          <div class="slider-trigger"></div>
-          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">张名桢</a></h1>
+      
+    </cover>
+    <header class="l_header blue">
+  <div id="loading-bar-wrapper">
+    <div id="loading-bar" class="blue"></div>
+  </div>
+
+	<div class="wrapper">
+		<div class="nav-main container container--flex">
+      <a class="logo flat-box" href="/">
+        
+          心灵革命
+        
+      </a>
+			<div class="menu navgation">
+				<ul class="h-list">
+          
+  					
+  						<li>
+								<a class="nav flat-box" href="/" id="home">
+									<i class="fas fa-grin fa-fw"></i>&nbsp;示例
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/blog/categories/" rel="nofollow" id="blogcategories">
+									<i class="fas fa-folder-open fa-fw"></i>&nbsp;分类
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/blog/tags/" rel="nofollow" id="blogtags">
+									<i class="fas fa-hashtag fa-fw"></i>&nbsp;标签
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/blog/archives/" rel="nofollow" id="blogarchives">
+									<i class="fas fa-archive fa-fw"></i>&nbsp;归档
+								</a>
+							</li>
+      			
+      		
+				</ul>
+			</div>
+
+			
+				<div class="m_search">
+					<form name="searchform" class="form u-search-form">
+						<input type="text" class="input u-search-input" placeholder="搜索">
+						<i class="icon fas fa-search fa-fw"></i>
+					</form>
+				</div>
+			
+			<ul class="switcher h-list">
+				
+					<li class="s-search"><a class="fas fa-search fa-fw" href="javascript:void(0)"></a></li>
+				
+				<li class="s-menu"><a class="fas fa-bars fa-fw" href="javascript:void(0)"></a></li>
+			</ul>
+		</div>
+
+		<div class="nav-sub container container--flex">
+			<a class="logo flat-box"></a>
+			<ul class="switcher h-list">
+				<li class="s-comment"><a class="flat-btn fas fa-comments fa-fw" href="javascript:void(0)"></a></li>
+        
+          <li class="s-toc"><a class="flat-btn fas fa-list fa-fw" href="javascript:void(0)"></a></li>
+        
+			</ul>
+		</div>
+	</div>
+</header>
+	<aside class="menu-phone">
+    <header>
+		<nav class="menu navgation">
+      <ul>
+        
+          
+            <li>
+							<a class="nav flat-box" href="/" id="home">
+								<i class="fas fa-clock fa-fw"></i>&nbsp;最近更新
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/blog/archives/" rel="nofollow" id="blogarchives">
+								<i class="fas fa-archive fa-fw"></i>&nbsp;改变世界
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/projects/" id="projects">
+								<i class="fas fa-code-branch fa-fw"></i>&nbsp;改变自己
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/friends/" rel="nofollow" id="friends">
+								<i class="fas fa-link fa-fw"></i>&nbsp;加入我们
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="https://xaoxuu.com/wiki/material-x/" rel="nofollow" id="https:xaoxuu.comwikimaterial-x">
+								<i class="fas fa-book fa-fw"></i>&nbsp;诉说理想
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/about/" rel="nofollow" id="about">
+								<i class="fas fa-info-circle fa-fw"></i>&nbsp;寻求帮助
+							</a>
+            </li>
+          
+       
+      </ul>
+		</nav>
+    </header>
+	</aside>
+<script>setLoadingBarProgress(40);</script>
+
+  </div>
+
+
+  <div class="l_body">
+    <div class='body-wrapper'>
+      
+<div class="l_main">
+  
+    
+      
+  <section class="post-list">
+    
+      
+        
+          
+        
+          
+        
+          
+            <div class="post-wrapper">
+              <article class="post reveal ">
+  
+
+
+  <section class="meta">
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  <h2 class="title">
+    <a href="/2018/09/07/xin-pin/">
+      革命的原理
+    </a>
+  </h2>
+
+
+      
+      <div class="new-meta-box">
+        
+          
+        
+          
+            
+  <div class="new-meta-item author">
+    <a href="http://yoursite.com" rel="nofollow">
+      
+        <i class="fas fa-user" aria-hidden="true"></i>
+      
+      <p>张名桢</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2018-09-07</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  
+  <div class="new-meta-item category">
+    <a href="/categories/革命/" rel="nofollow">
+      <i class="fas fa-folder-open" aria-hidden="true"></i>
+      <p>革命</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+  <div class="new-meta-item top-post">
+    <a class="notlink">
+      <i class="fas fa-angle-double-up" aria-hidden="true"></i>
+      <p>置顶</p>
+    </a>
+  </div>
+
+
+          
+        
       </div>
-    <div class="intrude-less">
-        <header id="header" class="inner">
-            <a href="/" class="profilepic">
-                
-                    <img lazy-src="/img/avatar.png" class="js-avatar">
-                
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+    </div>
+    
+      <div class="full-width auto-padding tags">
+        
+          <a href="/tags/社会学/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>社会学</a>
+        
+          <a href="/tags/伦理/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>伦理</a>
+        
+          <a href="/tags/苦闷/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>苦闷</a>
+        
+      </div>
+    
+  </section>
+</article>
+
+            </div>
+          
+        
+          
+            <div class="post-wrapper">
+              <article class="post reveal ">
+  
+
+
+  <section class="meta">
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  <h2 class="title">
+    <a href="/2018/09/07/3k-dang-de-peng-you-men/">
+      3k党的朋友们
+    </a>
+  </h2>
+
+
+      
+      <div class="new-meta-box">
+        
+          
+        
+          
+            
+  <div class="new-meta-item author">
+    <a href="http://yoursite.com" rel="nofollow">
+      
+        <i class="fas fa-user" aria-hidden="true"></i>
+      
+      <p>转载</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2018-09-07</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  
+  <div class="new-meta-item category">
+    <a href="/categories/革命/" rel="nofollow">
+      <i class="fas fa-folder-open" aria-hidden="true"></i>
+      <p>革命</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+  <div class="new-meta-item top-post">
+    <a class="notlink">
+      <i class="fas fa-angle-double-up" aria-hidden="true"></i>
+      <p>置顶</p>
+    </a>
+  </div>
+
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      <p>伪伊斯兰黑人至上运动与美国纳粹（下）</p>
+<p>1962年，鲍勃·迪伦创作了一首名为《Talkin’ John Birch Society Blues》的政治讽刺歌曲。它讲述了一个偏执狂，确信GCD正在渗透美国，于是他加入了一个叫约翰·伯奇的组织，开始在床底、烟囱、马桶、水槽、甚至电视机内四处寻找小红人（即共谍）。他发现艾森豪威尔、林肯、杰斐逊、罗斯福竟都是小红人… …最终，这哥们坐在家里调查起了自己。</p>
+<p>鲍勃·迪伦的灵感来自于美国纳粹党创始人。他在结尾处的歌词中写道:</p>
+<p>“据我所知，只有一个人，才是真正的美国人-乔治·林肯·洛克威尔”（言外之意其他所有都是GCD）<br>*由于此歌没有官方中文译名，在请教了众多文盲友人后，他们给出了一个颇具社会气息的翻译：《闲逼蛋扯，约翰·伯奇团伙的狂想布鲁斯》</p>
+<p>▾乔治·林肯·洛克威尔</p>
+<p>|</p>
+<p>美国纳粹党<br>乔治·林肯·洛克威尔是一个长期以自我为中心的失败者，他创造了这个破败的小团伙，并将其命名为美国纳粹党，以此来减轻在实现中是个loser所带来的内心痛苦… …洛克威尔带领他的“冲锋队”，用令人讨厌的服装和作呕的口号，偏执对抗着被自己意想出来的敌人：即，“ 犹太共产主义者操控世界的阴谋”… … - 联邦调查局<br>1959年3月，美国海军退役军官洛克威尔庄严的向邻居们宣布：世界自由企业国家社会主义者联盟（WUFENS）在今天成立啦！”。</p>
+<p>他日后回忆道，在这一刻自己与元首（希特勒）产生了一种穿越时空的精神交互… …从此，41岁的老洛将告别他那平凡的人生。</p>
+<p>▾洛克威尔</p>
+<p>同年12月，他将这个又臭又长的狗屎名字改为美国纳粹党（ANP）。在招募了十几个智商不高的无业青年后，老洛组建起了自己的冲锋队，并将党部正式乔迁至弗吉尼亚州阿灵顿-北伦道夫街928号。</p>
+<p>▾1965年6月5日，洛克威尔在他的党部前留影</p>
+<p>当附近居民得知自己社区搬来纳粹后炸开了锅！人们在远处就能看到他家阳台上醒目的纳粹标志。这里成了当地小青年“探险”、“迷恋”的对象，他们喝多酒后，经常会用砖头去调戏老洛家党部的门窗。</p>
+<p>为了吸引媒体关注，洛克威尔开始在各地集会炒作。1960年5月，他打算在纽约联合广场发表演说，但纽约市长认为洛克威尔是个大傻逼，剥夺了他的发言权。老洛一怒之下将纽约市政府告上法庭。在庭审休息期间，一名记者问他：</p>
+<p>记者：如果你在美国上台，你将如何对待犹太人？<br>洛克威尔：我会像对待所有其他美国公民一样对待犹太人。如果他们是忠诚的美国人，一切都好办。但如果他们是叛徒，将被处决！<br>记者：那你认为是叛徒的犹太人比例有多少？<br>洛克威尔：90％！<br>话音刚落，周围愤怒的二战犹太退伍老兵和大屠杀幸存者，就冲上前来用拳脚+雨伞伺候了洛克威尔与问出这样傻屌问题的记者。如果没有警察拼命拦着，这哥俩绝对见不着当晚的月亮… …事后，在犹太团体的压力下，美国海军将洛克威尔从预备役中除名。</p>
+<p>▾表情帝三连自拍！</p>
+<p>1960年7月4号-美国独立日，洛克威尔又跑到华盛顿特区的国家广场搞事。这一次他刚上台瞎逼逼了不到5分钟，就与台下人发生互殴。警察逮捕了洛克威尔和他的8名党员。老洛在警局闹着要对自己进行公开审判，但警察觉得这傻缺脑子可能有问题，直接将他送进精神病院关了30天。医生鉴定后得出结论，洛克威尔的精神状况比正常人还正常… …</p>
+<p>见缝插针的洛克威尔在这期间竟写了一本名叫《如何远离与逃出疯人院》的小册子，以供自家党员日后学习… …</p>
+<p>▾1960年7月4日，老洛在华盛顿用销魂的眼神藐视一切</p>
+<p>▾1960年5月，老洛创建了自己的机关报杂志：《Stormtroopr》-《冲锋队》</p>
+<p>|</p>
+<p>从洛克威尔的纳粹党成立起，一个大写的穷字就始终摆在他面前。由于没钱支付账单，老洛的党部经常处在断水、断电的悲惨境地。路过这里的巡警将此地称为“贫穷、肮脏的鬼屋”。</p>
+<p>他的冲锋队们平时过得也很苦，吃了上顿没下顿。有时只能靠豆子、廉价罐头、甚至猫粮解决温饱… …一名队员曾回忆：</p>
+<p>“洛克威尔是一名自私的领导者！他平常只会呆在党部里看报纸、睡大觉，而却忽悠我们其他人出去干活、找工作… …部分同情者觉得我们日子过得太惨了，他们会在冬季将一些食物带到党部，洛克威尔则毫不犹豫挑走最好的，把最次的留给其他人… …”<br>但即使在这样艰苦的条件下，依然无法阻挡老洛抓共谍的热情与决心！这让一直对他进行监控的FBI探员们感到羞愧… …</p>
+<p>洛克威尔曾列出了一份国内犹太名人的清单，这些都被他怀疑有布尔什维倾向，他打算秘密调查他们！在老洛的内心世界有一个不可磨灭的固有认知：即，GCD=犹太人。</p>
+<p>▾洛克威尔的党员活动日… …</p>
+<p>|</p>
+<p>1961年5月4日，一批反对种族隔离的黑、白民权人士发起了“自由乘车运动”。他们搭坐州际巴士进入了美国南部种族隔离区。</p>
+<p>这是令洛克威尔无法容忍的！老洛立刻带领冲锋队行动起来！他搞了一辆7手大众牌破烂面包，并在车身涂鸦上：“我们讨厌种族融合！讨厌犹太人！”等一系列响亮口号。他将自己这辆战车取名为“仇恨巴士”，打算开着它火速南下拦截自由乘车人！</p>
+<p>▾老洛那辆充满喜感的“仇恨巴士”</p>
+<p>▾由于担心洛克威尔闹事，从“仇恨巴士”出发起，执法部队就密切关注</p>
+<p>但由于丫这辆破车开的实在太慢了… …1961年5月20日清晨，自由巴士在伯明翰遭3K党暴徒率先拦截。他们用棒球棍、钢管殴打了车上的人，将巴士焚毁。还在一路狂奔的老洛得知后，对3K党“抢活”的做法感到气愤！</p>
+<p>▾暴徒在群殴一名自由乘车人，拍摄照片的记者也未能幸免</p>
+<p>▾著名自由乘车人琼·特鲁帕尔，参加活动这一年她19岁</p>
+<p>▾1961年5月23日，洛克威尔与他的“仇恨巴士”</p>
+<p>虽然洛克威尔这次没能抢夺头彩，但他开着这辆破逼面包在各州招摇过市的场面已出尽风头。BBC给了个令老洛无比骄傲的称号“美国希特勒”。他那鲜明的反犹与种族隔离主张，开始引起一些“志同道合”团伙的关注。</p>
+<p>▾老洛的冲锋队在游行时遭路人砸场</p>
+<p>|</p>
+<p>ANP与NOI<br>1961年6月，洛克威尔意外收到了黑人“伊斯兰国度NOI”组织的会议邀请。这让老洛有些小激动！</p>
+<p>尽管之前他还因“黑人是否算人？”的问题与民权运动者争论不休。但他十分欣赏马尔科姆·X与NOI老大以利亚·穆哈默德的种族分离计划，虽然细节有所不同。</p>
+<p>*洛克威尔曾经的宏伟构想是：给美国所有黑人免费提供一张去非洲的单程机票，让他们在那建立新的国家。而那些选择留下来的人将会被围捕、隔离… …</p>
+<p>▾左：NOI老大以利亚·穆哈默德、右：马尔科姆·X</p>
+<p>对于NOI来说，选择与纳粹合作也并不算大胆的尝试。就在半年前，以利亚·穆哈默德已经与3K党在亚特兰大举行了绝密会谈。3K党高层也认为虽然我们对肤色的看法不同（都认为自己最高贵），但大家分开过的目标是一致的！</p>
+<p>3K党伸出了橄榄枝，他们以低价向NOI出售了佐治亚州的一批党产土地，马尔科姆亲自审阅了报价，至此两个组织停止争斗，达成和解。</p>
+<p>|</p>
+<p>1961年6月25日，洛克威尔带领冲锋队来到华盛顿，第一次参加了NOI峰会。这次会议使老洛感慨良多，他发现NOI除了实力雄厚外，它在某些方面比自己更他娘的像纳粹… …他甚至对以利亚·穆哈默德产生了仰慕之情。洛克威尔告诉手下：</p>
+<p>“以利亚·穆罕默德是黑人希特勒！… …他聚集了数百万肮脏、不道德、醉酒、懒惰、令人厌恶的黑鬼！他将这些人改造成了干净、清醒、诚实、努力工作、端庄、奉献和令人钦佩的人类，尽管他们的肤色不同… …”<br>▾请注意NOI的旗帜，星月的方向与土鸡国国旗的正好相反</p>
+<p>*在以利亚的领导下，此时伊斯兰国度已发展到75000多人。虽然名为宗教领袖，但以利亚却更像一名企业家。</p>
+<p>他利用信徒捐款购买地皮、投资房地产。到60年代中期，NOI拥有良田数万英亩，在各州建立了47所学校，以及全美最大的黑人报业出版公司。</p>
+<p>它还覆盖了包含面包房、理发店、咖啡馆、超市、自助洗衣店、夜总会、宾馆、路上与空运物流等一系列生活产业。1972年，NOI组建了自己的信托公司，以利亚自豪的告诉信徒伊斯兰国度的净资产已达7500万美元。</p>
+<p>“以利亚知道，跨种族通婚是犹太人的欺诈行为，这只会使问题恶化……我们已经答成一项可行的种族分离计划，它会使所有各方都感到满意！除了那些布尔什维克的煽动者犹太人… …” - 洛克威尔<br>8个月后，1962年2月25日，NOI在芝加哥举办救世主大会，再次邀请洛克威尔参会。老洛趾高气昂的对现场12000多黑人发表了“真情”演说：</p>
+<p>“你们都知道我叫你们‘黑鬼’！但你们却不愿意面对眼前我这个诚实的白人，而去相信那些在背后说你们坏话的人!…. …</p>
+<p>那些表面上口口声声说爱你们的自由主义者，却偷偷将你们排除在真相之外！”<br>“我不怕站在这里告诉你们，我讨厌你们、讨厌种族融合… …但我将全力以赴帮助以利亚·穆罕默德阁下执行他在非洲的建国计划。以利亚·穆罕默德是对的！分离或者死亡！”<br>▾1962年2月25日，芝加哥救世主大会，洛克威尔演讲现场。请注意坐在老洛左后方，面带欢乐的马尔科姆</p>
+<p>▾会议现场，以利亚·穆罕默德和马尔科姆</p>
+<p>▾1962年2月25日，洛克威尔在“救世主大会”</p>
+<p>台下黑人就像在听脱口秀一样，嘘声、掌声、嘲笑声此起彼伏。他们认为老洛是个诚实、欠抽、而又缺心眼的好基友… …这成了双方合作的基石。</p>
+<p>▾救世主大会现场的NOI成员</p>
+<p>|</p>
+<p>世界国家社会主义联盟<br>1962年7月，洛克威尔收到了来自不列颠的召唤。英国新纳粹主义领军人物科林·乔丹得知大西洋彼岸出了位“美国希特勒”后异常兴奋，他立刻电联老洛，邀其速来英格兰共商大计！</p>
+<p>8月初，洛克威尔抵达英国与科林·乔丹及来自法国、西德、奥地利、比利时的众多新纳粹分子会面。老洛与科林相见恨晚！在这哥俩的倡导下，各路牛鬼蛇神于格洛斯特郡签订了《科茨沃尔德协议》，宣告世界国家社会主义联盟（WUNS）成立！随即，英国政府将洛克威尔列入“不受欢迎的人”，将其驱逐！并从此禁止他入境… …</p>
+<p>▾科林·乔丹与洛克威尔</p>
+<p>▾世界国家社会主义大会合影。中间排右二：洛克威尔</p>
+<p>▾左：英国纳粹领袖科林·乔丹、右：其副手约翰·丁达尔</p>
+<p>*科林·乔丹：20世纪60年代英国极右翼圈子中的扛把子。他提倡泛雅利安人主义，公开佩戴、穿着第三帝国风格的服装与徽章，明确公示自己的“纳粹”信仰。</p>
+<p>|</p>
+<p>与那所谓由“原生家庭”造成后期思维偏执的人不同。洛克威尔的童年不存在任何动荡与不安。他老爹是位成功的喜剧表演家，母亲是名舞蹈演员。虽然父母在他六岁时离异，但他从没缺少过关爱。1940年，洛克威尔加入美国海军航空兵，参加了二次大战与朝鲜战争，是一名出色的指挥官。</p>
+<p>▾左：刚参军时洛克威尔。他后期叼根烟斗装逼的习惯就是在太平洋战区和他的顶头上司麦克阿瑟(右）学的… …</p>
+<p>战后，洛克威尔来到纽约学习商业设计并成立一家自己的广告公司。他对这座城市的种族多样性感到不爽，他将纽约形容为：“所谓的文化熔炉更像是一个大垃圾桶！”</p>
+<p>50年中期，老洛的公司倒闭后，他成了麦卡锡主义的追随者，开始同反犹组织走到一起。1958年，当他的纳粹倾向已公开化时，洛克威尔的老丈人认为我这姑爷脑子是不是进屎了… …他火速赶来将女儿和孩子们接走，并断绝她与老洛的婚姻。</p>
+<p>*洛克威尔妻子的娘家人是20世纪中期冰岛最强大的家族。他的老丈人是冰岛壳牌石油董事长。</p>
+<p>▾老洛与他的妻子和孩子们。洛克威尔在冰岛驻扎期间二人相识</p>
+<p>已经成了孤家寡人的洛克威尔，开始全身心投入到自己的伟大事业中。</p>
+<p>他逐渐产生了一套自己的理论逻辑：如果当年希特勒闪击波兰，证明了英国对德国宣战是合理的。那为什么苏联在同一时刻也入侵了波兰，而你英国佬却没有对苏联宣战？为什么美国的广播、报纸、杂志总在谈论希特勒杀害犹太人的可怕罪行，而对苏联杀害平民的事避而不谈？</p>
+<p>于是洛克威尔自认为发现了一个惊天大秘密：布尔什维克是犹太人创造的、十月革命是犹太人发动的、苏联是犹太人的傀儡、犹太财团控制着美国、英国政府和所有新闻媒体… …我滴天呐！原来希特勒是对的！整个世界都被犹太人绑架了… …</p>
+<p>▾1962年3月9日，洛克威尔在圣地亚哥州立大学发表攻击犹太人的演讲，该校体育系大四学生埃德·切里，冲上讲台给了老洛一记“右勾拳”！</p>
+<p>▾1965年4月3日，老洛在达拉斯市中心对犹太人开喷！</p>
+<p>“我不相信有600万犹太人被希特勒消灭了！它从未发生过… …” - 1966年，洛克威尔接受《花花公子》杂志采访<br>“我有无可辩驳的证据证明这不是真的（指犹太大屠杀）” - 1965年，洛克威尔接受加拿大广播公司采访<br>▾答记者问的老洛</p>
+<p>|</p>
+<p>伊斯兰国度的分裂<br>1963年初，就在洛克威尔准备与NOI联合发起一场吹捧种族分离的全国巡回演讲时，NOI内部却发生了分裂。</p>
+<p>随着马尔科姆影响力不断增强，他已成为媒体的焦点。</p>
+<p>当一家出版社在发行了一本关于NOI的书籍时，竟直接将马尔科姆的照片作为封面，其内容上还引用了他的5篇演讲，而作为老大的以利亚·穆哈默德只有1篇… …</p>
+<p>以利亚觉得小马这逼孩子还知不是道自己是谁了！这是想要篡权的前兆啊！</p>
+<p>▾1962年，马尔科姆在纽约</p>
+<p>▾1960年，菲德尔·卡斯特罗与马尔科姆见面</p>
+<p>而此刻，马尔科姆也对自己这位精神导师倍感失望。他发现以利亚这老东西竟在几年时间里连续偷偷睡了8名女秘书！其中导致6人怀孕后，还生下了8个孩子… …这严重违反NOI教义。小马认为你个老王八蛋平时把自己包装成圣人来教导别人，自己却暗地里干着龌龊的事情！</p>
+<p>同时，随着他与国内越来越多的穆斯林团体接触，小马意识到NOI教义根本无法让他们融入伊斯兰世界，他已产生倒向传统逊尼派的倾向。</p>
+<p>1964 年3月8日，马尔科姆与以利亚彻底闹掰！小马公开宣布脱离NOI，皈依逊尼派。他希望劝说当年被他拉进NOI的拳王阿里一起离开。但年轻的小阿里早被以利亚洗脑，他拒绝了马尔科姆。阿里后来回忆：</p>
+<p>“背弃马尔科姆是我一生中最后悔的错误之一”<br>▾NOI印有以利亚和阿里的宣传海报</p>
+<p>▾1963年，纽约，马尔科姆与阿里。两人在1962年相识，此后马尔科姆成为小阿里的良师益友。在马尔科姆的激励下阿里加入了NOI</p>
+<p>▾穿着FOI服装的阿里。FOI：伊斯兰国度下属组织，被誉为“真主的斗士”</p>
+<p>▾1964年，横扫赛场的阿里</p>
+<p>马尔科姆退群后出访中东及非洲各国。在麦加，他看到各肤色的人一起祷告的景象，这打破了小马长期以来“黑人天生优越”、“白人天生邪恶”的认知。</p>
+<p>▾1964年7月，马尔科姆在麦加会见费萨尔王子</p>
+<p>▾1964年，马尔科姆在埃及</p>
+<p>▾1964年，小马在麦加祷告</p>
+<p>▾1964年3月26日，马丁·路德·金与马尔科姆·X在华盛顿偶遇。这是他们第一次，也是今生唯一一次见面</p>
+<p>1965年1月，马尔科姆给美国纳粹党发去了电报，他告诉洛克威尔：</p>
+<p>“这是为了警告你，我不再被以利亚·穆罕默德的黑人种族分离主义所束缚… …如果你现在对马丁·路德·金或任何其他美国黑人造成身体伤害… …你和你的3K党朋友将受到最大程度的报复！”<br>老洛收到电报后也懵逼了… …他想你特么是不是喝多了！你跟你老大掐架关我屌事啊！当年喷金的时候，就你特么喷的最欢！而我也只是放狠话、骂他虚伪而已，真想要他命的人是3K党！你发电报跟我喊个毛啊！（幸好当时马丁·路德·金嫖妓、乱搞男女关系的绯闻，还没有发生，这要是让洛克威尔知道了，他非拿着大喇叭向全国挨家挨户广播一遍… …）</p>
+<p>▾1965年，在阿拉巴马州，马丁·路德·金与洛克威尔狭路相逢！二人同意在当晚进行单挑辩论，但老洛实在不招人待见，会议主办方又取消了他的入场资格</p>
+<p>*关于圣徒马丁·路德·金的性丑闻：FBI在监控金是否与苏联有关时，不料意外收获了他出轨的不明确情报… …随后联邦调查局将消息放给了媒体。这让攻击金的人给他扣上了嫖妓白人女性、召开性爱Party的帽子。</p>
+<p>事实证明这是对金的抹黑！他没有嫖娼！他只是睡了女粉丝！1989年，金的亲密战友拉尔夫·阿伯内西在出版的回忆录《墙壁的倒塌》中公开写明：“1968年4月3日晚（金遇刺前一夜），金与两名女性发生了性关系”。阿伯内西还带有甩锅式的补充道：</p>
+<p>“马丁和我离开的次数比我们在家的时间要多，虽然这并不是婚外情的借口… …我们都知道《圣经》中禁止婚外性行为，但诱惑很难克服。除了金个人意志脆弱外，他还是一个对女性颇有吸引力的男人，即使他从没有这样的想法，她们还是会成群结队被他吸引… …”（这难道是在告诉人们都是女粉丝的错喽？）<br>|</p>
+<p>马尔科姆之死<br>以利亚·穆罕默德对小马的脱离表示震怒！他扬言：</p>
+<p>“像马尔科姆这样的伪君子应该将他的头砍掉！”<br>在这之后，先是小马的汽车被炸毁，紧接着他在纽约的一处房产也遭人纵火。</p>
+<p>▾1963年8月，马尔科姆在纽约集会，向粉丝讲述自己在中东的经历</p>
+<p>▾左：1964年9月，马尔科姆手拿M1卡宾枪警惕的望向窗外</p>
+<p>面对以利亚的死亡威胁，马尔科姆打算同这老东西鱼死网破。1964年6月8日，他在接受哥伦比亚广播的电视采访时，大肆爆料了以利亚“骗炮儿”8名女秘书怀孕产子的详细经过，并攻击NOI根本就不是伊斯兰教… …这让美国的吃瓜群众们过足了隐！（据说哥伦比亚广播当日收视率创下新高！）</p>
+<p>▾1964年6月8日，马尔科姆接受采访的电视画面</p>
+<p>已经67岁的以利亚看到自己的丑事上了电视后，气得差点吐血… …他下决心必须要把小马这兔崽子给剁了！</p>
+<p>1965年2月21日，正当马尔科姆在曼哈顿奥杜邦剧院演讲时，三名NOI黑人枪手同时袭击了他。小马全身中弹21处，经抢救无效后死亡。最终，凶手抗下了所有罪名。</p>
+<p>▾马尔科姆被杀现场</p>
+<p>▾暗杀现场墙面上留下的弹孔</p>
+<p>事后，马丁·路德·金在给马尔科姆妻子的信中写到：</p>
+<p>“虽然我们在解决种族问题的方法上并不总是一致，但我始终对马尔科姆有着深厚情感… …没有人能怀疑他为解决我们种族所面临的问题而付出的努力。” - 金，1965年2月26日<br>|</p>
+<p>别了，洛克威尔<br>马尔科姆被做掉后，以利亚将全部精力用于稳定内部，他基本终止了与纳粹的任何活动。洛克威尔则继续带领冲锋队四处声讨犹太人。</p>
+<p>▾冲锋队游行</p>
+<p>1965年10月，他在竞选弗吉尼亚州长时失利，但却获得6366票。这对于没有竞选资金、穷的都快尿血的老洛来说，已是巨大成功。</p>
+<p>就在他为自己欢呼时，由于拖欠各项总额约7000美元的税款，税务局的工作人员冲进了洛克威尔的党部。他们无情的查抄了老洛制作党报的印刷机，及屋内所有看起来值钱的东西… …</p>
+<p>▾在竞选后，洛克威尔召开新闻发布会</p>
+<p>1966年，洛克威尔在与他口中的“暴力黑鬼”-黑豹党的斯托克利·卡迈克尔进行互喷辩论时，卡迈克尔高喊的“黑色力量”一词让他十分心动，随后老洛剽窃了这一口号，将其改为“白色力量”，摇身一变成了自己的slogan。</p>
+<p>▾斯托克利·卡迈克尔</p>
+<p>*斯托克利·卡迈克尔：美国著名社会主义民权运动者，曾担任黑豹党“名誉首相”。他与洛克威尔虽然信仰的主义不同，但他们却拥有同一个偶像“希特勒”。卡迈克尔曾说“我从未钦佩任何过白人，但在我看来，他们中最伟大的只有希特勒！”</p>
+<p>受到“白色力量”的启发，老洛忽然意识到长久以来阻碍他事业发展的一个严重问题。那就是“纳粹党”这个名字太招人讨厌了！</p>
+<p>1966年底，他将美国纳粹党（ANP），改名为国家社会主义白人党（NSWPP）。希望用更普世的白人价值观推行自己的理念。他制定了一项长期战略，意图将基督教运动融入进来，从而发展成适应这个时代的“新纳粹政治哲学”。但洛克威尔不知道，他已经没时间了。</p>
+<p>▾1966年，老洛在达拉斯打着反犹标语</p>
+<p>▾1966年8月，洛克威尔又跑到芝加哥手舞足蹈的激情演讲！</p>
+<p>|</p>
+<p>1967年8月25日，正当洛克威尔从阿灵顿一家自助洗衣店离开，走向他那辆雪佛兰轿车时，29岁的前纳粹党员约翰·帕特勒，从屋顶用一把德制毛瑟M1896向他连开数枪，49岁的老洛当场毙命… …在这之前，洛克威尔曾指控帕特勒怀有“布尔什维克倾向”，将他开除党籍。</p>
+<p>▾老洛死亡现场</p>
+<p>在法庭上，帕特勒用令陪审团哈哈大笑的方式描述了他与洛克威尔的关系：</p>
+<p>“我像父亲一样爱他，他像个儿子一样爱我… …”<br>▾约翰·帕特勒：原名：约翰·帕萨洛斯，1960年加入美国纳粹党后，他改名为“帕特勒”，目的是为了让自己听起来更像“希特勒”</p>
+<p>洛克威尔78岁的老爹得知儿子死讯后平静的说：</p>
+<p>“我一点也不感到惊讶… …”<br>是的，从老洛建立纳粹党这天起，他爹就知道没准哪天我的大宝贝儿子就会吃枪子。</p>
+<p>当时，一名叫大卫·杜克的高中生在看到老洛被谋杀的新闻后，在日记中写道：</p>
+<p>“有史以来最伟大的美国人陨落了… …”。<br>此人是洛克威尔的狂热粉丝，他日后成为著名的反犹+白人至上主义者、路易斯安那州3K党骑士团创始人、及“伊朗人民的好朋友”… …</p>
+<p>▾大卫·杜克，2006年，应伊朗总统艾哈迈迪·内贾德邀请，前往德黑兰参加了否认犹太大屠杀的国际会议</p>
+<p>▾左：老洛的继任者，前海军陆战队成员马蒂亚·斯科尔。右：1997年，斯科尔带领冲锋队纪念“乔治·林肯洛克威尔遇刺事件30周年”</p>
+<p>|</p>
+<p>就在洛克威尔被杀8个月后，1968年4月4日，老洛一生中最讨厌的那个黑人-马丁·路德·金也在田纳西州一家汽车旅馆的阳台遭枪手射击身亡。</p>
+<p>▾中间：参加葬礼的马丁·路德·金遗孀</p>
+<p>|</p>
+<p>最终，无论马尔科姆、洛克威尔、还是马丁·路德·金，他们都没能在20世纪60年代这场“暗杀”大潮中幸免… …</p>
+<p>END</p>
+<p>|</p>
+<p>参考文献：</p>
+<p>1.Rockwell, George Lincoln (1966). 1966 Playboy interview.</p>
+<p><a href="http://2.FiresignTheatre.com" target="_blank" rel="noopener">http://2.FiresignTheatre.com</a> – Join the Papoon Bandwagon</p>
+<p>3.Talkin’ John Birch Paranoid Blues</p>
+<p>4.Harlem Is Quiet as Crowds Watch Malcolm X Rites</p>
+<p>5.Malcolm Called a Martyr Abroad</p>
+<p>6.Coates, Ta-Nehisi (April 11, 2011). The Sexuality of Malcolm X</p>
+<p>7.Farrakhan Admission on Malcolm X. 60 Minutes. CBS News.</p>
+<p>7.WETA. Nazis in Arlington: George Rockwell and the ANP</p>
+<p>8.The National Socialist Movement Implodes</p>
+<p>9.The Rebirth Of American Nazism</p>
+<p>*文章版权©20世纪研究所，已委托维权机构，未经授权严禁转载！</p>
+<p>20世纪研究所：伪伊斯兰黑人至上运动与美国纳粹（上）<br>​<br>zhuanlan.zhihu.com<br>图标<br>|</p>
+<p>更多操蛋文章，可关注微信公众号：20世纪研究所</p>
+<p>这个号太TM烂了！烂到没有一点正能量！</p>
+<p>发布于昨天 09:01</p>
+<p>▾1943年，美国底特律骚乱</p>
+<p>|</p>
+<p>奇异联盟<br>1961年6月25日，美国纳粹党（ANP）党魁乔治·林肯·洛克威尔先生，带领10名冲锋队来到华盛顿竞技体育馆。黑人穆斯林团体-“伊斯兰国度”（简称NOI）的8000多成员正在此地举办种族主义峰会。</p>
+<p>围观群众惊叹于纳粹作死的勇气！在人数800:1的情况下，洛克威尔就敢来搞事儿、砸场子！人们思考这2B是否会被踩死… …</p>
+<p>就在大家期待一出群殴的纳粹的好戏上演时，NOI的黑人保安队却将洛克威尔护送入场… …不明真相的群众这才发现，美国纳粹党竟是伊斯兰国度邀请的重要嘉宾… …</p>
+<p>▾乔治·林肯·洛克威尔，在亚马逊出品的架空历史剧《高堡奇人》中，纽约机场就以他的名字命名</p>
+<p>虽然洛克威尔曾侮辱黑人为“人类最低级的渣子”，伊斯兰国度则宣扬白人是“魔鬼嫁接的产物，黑人基因远优于白人，白人即将毁灭… ….”但这并不影响两个神棍组织的合作，因为他们拥有一个共同的远大目标：种族分离。既然我们都看对方像沙雕，那就分开过好了！</p>
+<p>▾伊斯兰国度成员</p>
+<p>在会议现场，洛克威尔像刘姥姥进大观园一样，惊叹的望着这些西装革履的黑人参会者陆续进场。数百名高大威猛、穿着统一制服的NOI准军事组织-“伊斯兰果实”（简称FOI）所表演的列队仪式，更令他印象深刻。洛克威尔发现与FOI的气场相比，自己的冲锋队就像一帮丢人现眼的瘪三+小赤佬… ….</p>
+<p>▾伊斯兰果实-Fruit of Islam，成立于1933年，被誉为“真主的斗士”，其作用是为了保护NOI成员</p>
+<p>▾没有对比就没有伤害… …洛克威尔在他那穷酸的纳粹党党部与自己的冲锋队合影</p>
+<p>当纳粹们被FOI护送就坐后，好事的记者蜂拥而来，询问洛克威尔对NOI的看法，他果断给出了自己的最高评价：</p>
+<p>“NOI是黑人纳粹分子！”<br>“我完全赞同他们的观点，我对以利亚·穆罕默德先生（NOI的老大）表示最崇高的敬意。”<br>“我们唯一的争吵是，NOI想要在美国分一大块地，而我则更喜欢让他们回非洲老家… …”<br>▾以利亚·穆罕默德，伊斯兰国度最高领袖</p>
+<p>▾坐在会场中心的洛克威尔和他的左右护法。从照片上看左边那位有点紧张，估计是以前没见过这么大场面</p>
+<p>本次峰会随着NOI二号人物马尔科姆·X的出场进入高潮。这位与马丁·路德·金齐名的黑人民权运动者，发表了题为《分离或死亡》的演讲。当他说道“NOI不是为了融合，而是彻底分离”时，洛克威尔带领冲锋队爆发出热烈掌声！</p>
+<p>在之后的募捐环节里，洛克威尔还大方的掏出一张20美刀贡献给了NOI… …</p>
+<p>▾会议现场的马尔科姆·X</p>
+<p>▾马尔科姆·X手拿捐款</p>
+<p>就这样，一个白人山寨版纳粹和一个黑人假伊斯兰组织，两个看似极端对立、而又相反的激进群体竟尿到了一个壶里… ….这成为20世纪60年代，美国民权运动中那一箩筐奇葩政治事件的缩影。</p>
+<p>|</p>
+<p>伊斯兰国度<br>1934年，FBI注意到一帮自称NOI的黑人宗教组织开始在底特律和芝加哥进行活动。起初，联邦调查局是无视他们存在的，因为像这NOI种不入流的宗教小团伙在美国能有好几百个。</p>
+<p>然而，当他们发现该组织与一名叫中根中的日本人来往密切后，联邦调查局意识到情况有点复杂了… …因为在中根中的背后，他们看到了日本黑龙会的身影… …随即，FBI开始了对NOI的一系列侦查。</p>
+<p>|</p>
+<p>根据NOI包装后的官方说法：1930年，一位名叫华莱士·法尔德·穆罕默德的大师怀揣使命，从圣城麦加漂洋过海来到美国底特律创建了“伊斯兰国度”-“Nation of Islam”，简称NOI。</p>
+<p>他向黑人劳苦大众传播真理，即：1.世界上最初的人类是黑人，其他白、黄、棕、红都是一个叫“雅库布”的大魔王嫁接出来的副产品，其中以白人最特么邪恶。2.只有伊斯兰教才是黑人真正的宗教。这两条真理奠定了NOI的核心思想。（我们黄种人直接躺枪… ….成了嫁接的产物）</p>
+<p>▾华莱士·法尔德·穆罕默德</p>
+<p>但对于NOI而言，有一个无法回避的矛盾点是：这位创始人法尔德大师的人种之谜。从照片看大师怎么也不像一个黑人… …NOI的解释是：大师是一名“肤色较浅”的黑人，是黑白混血儿… …</p>
+<p>但那些喜欢扒皮的历史学家们对法尔德展开了数十年的人肉搜索，他们调取了移民局、警察局、联邦调查局的各方档案后发现，法尔德根本就他娘的不是一个“肤色较浅”的黑人，他是一个“肤色较深”的白人！他的两任妻子也都是白人！这位传说中的大师也并非来自圣城麦加，他1882年左右出生在阿富汗，有95%的可能性是一名普什图人！</p>
+<p>这下尴尬了，也就是说这个日后拥有数万门徒、发展成黑人至上主义的宗教团体，其创始人和黑人竟没有半点关系… …</p>
+<p>1904年，法尔德大师经巴基斯坦、印度，转道香港登上S.S. Tremont号轮船，抵达华盛顿的汤森港，开始了自己的“美国梦”。</p>
+<p>▾S.S. Tremont号</p>
+<p>法尔德从美国东海岸一路闯荡到西海岸，期间他换了不下10个名字。大师干过卡车司机、开过餐馆、卖过鸦片、设过赌局、还曾被指控强奸…. …1926年美国禁酒令时期，法尔德非法走私烈酒终于蹲了大牢。</p>
+<p>在服刑的3年中，他用自己从小掌握的那点古兰经知识，给黑人狱友讲解伊斯兰教，以此打发无聊时光。为了迎合黑人兄弟的口味，法尔德在其中加入了一堆自己临时瞎逼编出来的东西，例如：黑人是失落的沙巴兹部落成员，是地球上最原始、最高贵的种族等等… …这些日后发展为NOI的主要学说。</p>
+<p>法尔德发现被白人社会长期边缘化的黑人群体对这套理论十分欢迎！大师意识到这才是他实现“美国梦”的最佳创业项目！</p>
+<p>1929年，法尔德出狱后加入了“摩尔人科学神庙”，这是一个由北非摩洛哥裔组成宗教团体。他仅呆了几个月后，便自立门户！</p>
+<p>▾1928年，摩尔人科学神庙在芝加哥举行会议</p>
+<p>1930年，法尔德将自己的教派命名为“伊斯兰国度”。他开始游走在底特律黑人聚集区以推销香水、丝巾为名展开传教。大师的套路是先向妇女同志下手，然后再由她们回家给自己老公吹枕边风，这一招非常牛逼！3年时间里NOI发展了8000多门徒。他利用捐款购买地皮，创办了学校和寺院。</p>
+<p>就在“美国梦”蒸蒸日上时，1934年，一名走火入魔的黑人信徒，要求大师将刀刺入自己的心脏，以此来战胜魔鬼… …如此梦幻般的想法大师竟同意了。估计法尔德的小算盘是轻轻朝他肚子扎一下，既不会出人命，还能彰显自己法力无边！</p>
+<p>结果仪式开始后大师入戏太深，这一刀下去捅猛了！导致信徒当场死亡… …法尔德知道这回可傻逼了… …他连夜乘火车跑路… …至此，法尔德再次改名隐居了起来。他的得意弟子以利亚·穆罕默德在PK掉众多竞争者后接管了NOI。</p>
+<p>▾以利亚·穆罕默德</p>
+<p>以利亚是一名优秀的管理者，他建立了NOI的独立报纸《伊斯兰最后的召唤》-《The Final Call to Islam》，继续扩大着该团体的影响力。但他不知道，有人已经准备要拿他和他的组织当枪使了！</p>
+<p>▾1934年的《The Final Call to Islam》</p>
+<p>1933年，在一名黑人女信徒的介绍下，以利亚认识了她的日本情人中根中。中根中在不断给NOI捐款的同时，还向以利亚吹嘘日俄战争的重要意义，称“日本是一个为有色人种而战的国家”！并告诉他黑人要想取得真正的解放，就必须跟着大日本帝国混才有希望！以利亚被说动了… …FBI的记录显示以利亚曾对信徒们讲：</p>
+<p>“皇军会帮助黑人杀死白人… …”<br>▾中根中和他的黑人情妇Pearl Sherrod</p>
+<p>*中根中是个被历史掩埋的人物，长久以来他在日本也不为人所知。直到20世纪末，历史学家才在FBI黑人运动的档案里发现了多达400页关于中根中的调查报告。</p>
+<p>1932年，中根中在芝加哥成立了东方太平洋运动（PMEW）。该组织对外宣扬“致力于帮助所有非白人种族的解放事业”。但其真正目的是对非裔美国人施加亲日影响。它的资金支持大部分来自黑龙会。中根中甚至开始着手建立武器库，为有朝一日皇军踏上美利坚时，带领黑人发动起义… …</p>
+<p>今天看来与皇军合作对NOI来说是一次惨痛的经历。1938年，欧亚战云密布，美国颁布兵役登记法案。中根中利用黑、白矛盾继续挑唆！他鼓动以利亚号召NOI的黑人不要参加美国军队。这让联邦调查局有了足够办他们的理由。</p>
+<p>▾二战中共有12万5千多黑人在美国陆、海、空军服役，从欧洲到太平洋战场都能看到他们的身影</p>
+<p>1939年，FBI突击了NOI在底特律的总部，从中查抄了一批带有日本特色的反动宣传海报，中跟中随即被捕。以利亚虽然当时撇清了关系，但他在1942年，被以八项煽动罪判处4年徒刑。</p>
+<p>1943年底，由于就业歧视、工作岗位及待遇分配不均，在底特律终于爆发了骚乱。白人与黑人在城市中展开斗殴。有意思的是，日本得知这一消息后马上舔着逼脸宣传称：这是他们策动黑人不要为美国而战的成功案例… …（其实日本人所起到的作用微乎其微）</p>
+<p>▾1943年，底特律骚乱现场</p>
+<p>1946年，以利亚出狱后发现曾经上万成员的NOI已凋零到仅剩400人。他本想去找中跟中质问：被你吹上天的大日本帝国为什么最后完蛋了？… …但以利亚得知中跟中被释放后，已于底特律去世。从此，他对与日本人这段往事进行了封口。</p>
+<p>|</p>
+<p>民权运动<br>从1947年起，以利亚开始对NOI进行重建。由于深得法尔德大师真传，他也将传教重点放在了牢房的囚犯身上，并发展出一套完美的监狱布道网络。该网络为NOI陆续输送了大批信徒。这其中就包括以利亚最心爱、最器重、也是日后最想弄死的弟子马尔科姆·X。</p>
+<p>▾马尔科姆·X，原名：马尔科姆·利特尔。他认为现在黑人的所有姓氏都是曾经由白人奴隶主强行施加的，所以他用“X”代表自己祖先在非洲那未知的姓氏</p>
+<p>大混混出身的马尔科姆从事过毒品交易、赌博、敲诈勒索、抢劫、拉皮条、男性卖淫等几乎覆盖所有违法乱纪领域的各项工作。他的一生经历了从流氓、宗教信徒、种族主义者到民权活动家的多次蜕变。</p>
+<p>中学时代的马尔科姆是一名学习优异、并立志要成为律师的有为青年。但当有一天他那操蛋白人老师告诉他：“对于黑鬼来说这是一个不现实的目标”后，马尔科姆陷入了自我堕落。</p>
+<p>1946年，他在偷了一整条街的白人富人家后被捕入狱，判刑8年。正当马尔科姆在牢房里充满迷茫时，狱友将他拉进了“伊斯兰国度”，之后他便不再抽烟和吃猪肉，并定期与以利亚进行书信交流。</p>
+<p>▾被捕时的马尔科姆·X</p>
+<p>马尔科姆在自传中回忆：</p>
+<p>我很快就陷入了美国白人社会的最底层。但在监狱里，我找到了安拉和伊斯兰教，它彻底改变了我的生活。<br>1952年8月，马尔科姆获得假释后，就立刻跑到芝加哥拜见了一直未曾谋面过的精神导师以利亚·穆罕默德。以利亚发现小马这个野娃子不但长得高大威猛（1.91米）、英俊帅气、有股子恨劲！而且还极富口才！可作为重点对象培养。第二年，马尔科姆被任命为NOI底特律第一清真寺助理部长，开始一路高歌猛进。</p>
+<p>▾演讲中的马尔科姆</p>
+<p>在20世纪50年代民权运动的滚滚洪流下，马尔科姆开始在各州用极具煽动性的语言，为“伊斯兰国度”招募信徒。到1955年，他为NOI新添了5座清真寺，每月都有数百人被吸引到组织。</p>
+<p>▾马尔科姆视察NOI的黑人餐厅，墙上还挂着以利亚的照片</p>
+<p>1957年，一名“伊斯兰国度”成员在纽约遭两名白人警察殴打，马尔科姆得知后，召集了4000多人堵在警局门口。</p>
+<p>经过一天一夜对峙，小马认为虽然我不敢把警察局给砸了，但威慑效果已经达到！他仅做了一个简单的手势，4000人便自动散去。这让警察惊出一身冷汗，他们没想到这小子竟有如此大的动员力… …该事件让他扬名美国媒体。</p>
+<p>▾1957年，马尔科姆在纽约警局门口</p>
+<p>马尔科姆所宣扬的白人是“魔鬼”、黑人优于白人、白人的灭亡迫在眉睫、基督教是白人邪恶的宗教等言论，让许多美国黑、白群体感到震惊。（当时他还不知道自己信奉的假伊斯兰教和真正的伊斯兰教都是白人创建的… …）</p>
+<p>这让他与同时期的民权运动者马丁·路德·金形成了截然相反的意识形态。金倡导非暴力争取权利及种族融合。强调“旨在赢得对手的友谊，而不是羞辱或击败对方”。他清楚，你不能把整个一个种族放在自己的对立面。</p>
+<p>1957年，金联合众多黑、白民权活动家成立了南方基督教领袖会议（SCLC），该组织得到了白左们的广泛吹捧。</p>
+<p>▾左：马丁·路德·金 右：南方基督教领袖会议（SCLC）</p>
+<p>▾1958年，金在蒙哥马利法院大楼被捕</p>
+<p>马尔科姆则认为，简单的通过让别人抽你大嘴巴，而你却不还手来获得自由与尊严，是完全扯蛋的想法。他呼吁必须用“任何必要手段”实现黑人解放，并不屑的称金和SCLC为“幼稚的笨蛋”及“白人当权者的走狗”… …金也对马尔科姆的黑人至上主义进行了批评：</p>
+<p>“他（马尔科姆）在黑人社区利用蛊惑人心的演说，敦促黑人将自己武装起来准备参与暴力，这种行为只能以悲剧收场… …“<br>1963年，金在华盛顿肯林纪念堂发表了他那著名的演讲《我有一个梦想》，这次活动吸引了25万不同种族参加。马尔科姆将这次集会称作“华盛顿的闹剧”，并讽刺说：</p>
+<p>“我不知道为什么？有这么多黑人站在一个死了100年，并且活着时也不喜欢我们的总统雕像前而感到兴奋？”<br>▾1963年8月28日，I Have a Dream演讲现场</p>
+<p>马尔科姆主张在受到威胁时毫不犹豫的使用暴力。这让NOI受到北方州黑人的支持，因为他们已经厌倦了被白人种族主义者骚扰、欺负后，傻傻等待警察处理的方式… …而1958年发生的一次印第安人与3K党的械斗事件更让一些拥护主流“非暴力”的人产生了动摇。</p>
+<p>|</p>
+<p>海斯池塘之战<br>1958年1月，在北卡罗来纳州圣保罗镇，当地Lumbee部落的一名印第安妇女与一白人男性产生了恋情。三K党南、北卡罗来纳分舵舵主詹姆斯·威廉·科尔（江湖绰号：鲶鱼科尔）得知后暴跳如雷，他在镇上发表演说称Lumbee部落女性道德沦丧、不知羞耻！接着，他们大半夜跑到该女子家门口放火点燃一个十字架用以装逼+示威！这是3K党滋事前的标配流程。</p>
+<p>▾鲶鱼科尔</p>
+<p>▾鲶鱼科尔带队放火</p>
+<p>随后，1月18日，科尔又打算聚众在海斯池塘边的一块田地上集会声讨印第安人。当地警长警告了科尔，你这么干很容易挨揍。但科尔没有听，他估计以自己的江湖地位最少能喊来5000人支持自己。可没想到召集帖发出去后只来了可怜的30多人… …</p>
+<p>就在科尔架起高音喇叭准备骂街演讲时，Lumbee部落与当地白人的反3K党联盟聚集了500多人（其中大部分是参加过二战的老兵），手持猎枪、砖头和棍棒前来踢馆。</p>
+<p>科尔当场就怂了… …他想以和平方式进行辩论，但印第安人没有跟他废话，直接开了枪！科尔吓得撒腿就跑，他的手下还没来得及举枪回火，就被冲上来的人群按在地上一顿猛削… …战斗结束后，Lumbee部落缴获了一面3K党党旗和一个未点燃的十字架。</p>
+<p>▾1958年1月18日的械斗现场</p>
+<p>▾左：两个印第安小伙儿在展示缴获的3K党党旗。右：一名被殴打后的3K当成员</p>
+<p>此事件后，3K党再也没有踏进Lumbee部落的地盘半步。马尔科姆代表NOI向Lumbee部落发来贺电，他坚定支持武斗的做法。因为NOI在南部州购买的农田，也经常遭到3K党骚扰，他们的奶牛被不断被枪杀。马尔科姆的回应是，你特么敢杀我牛，老子就派人放火烧你家牧场… …</p>
+<p>|</p>
+<p>纳粹来了<br>1959年3月，就在黑人民权运动即将进入60年代的高潮时，日后被称为“喜剧演员”的美国海军退役军官乔治·林肯·洛克威尔登场了。</p>
+<p>老伙计将一面纳粹旗挂上了自家墙面，并向希特勒的照片敬献三根蜡烛后，他宣誓效忠元首… …当晚，洛克威尔庄严告诉自己的邻居们：世界自由企业国家社会主义者联盟（WUFENS）成立啦！</p>
+<p>可能是他觉这个狗屎名字太长了，同年12月，将其更名为美国纳粹党（ANP）。</p>
+<p>在这之后的7年中，洛克威尔将成为伊斯兰国度的忠实盟友，并为人们留下无数欢乐色彩！</p>
+<p>▾1965年11月3日，洛克威尔在弗吉尼亚州发表讲话</p>
+
+      
+    </div>
+    
+      <div class="full-width auto-padding tags">
+        
+          <a href="/tags/社会学/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>社会学</a>
+        
+          <a href="/tags/伦理/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>伦理</a>
+        
+          <a href="/tags/现代史/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>现代史</a>
+        
+      </div>
+    
+  </section>
+</article>
+
+            </div>
+          
+        
+      
+    
+    
+      
+        
+          <div class="post-wrapper">
+            <article class="post reveal ">
+  
+
+
+  <section class="meta">
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  <h2 class="title">
+    <a href="/2018/09/07/xian-dai-zheng-zhi/">
+      现代政治
+    </a>
+  </h2>
+
+
+      
+      <div class="new-meta-box">
+        
+          
+        
+          
+            
+  <div class="new-meta-item author">
+    <a href="http://yoursite.com" rel="nofollow">
+      
+        <i class="fas fa-user" aria-hidden="true"></i>
+      
+      <p>张名桢</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2018-09-07</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  
+  <div class="new-meta-item category">
+    <a href="/categories/革命/" rel="nofollow">
+      <i class="fas fa-folder-open" aria-hidden="true"></i>
+      <p>革命</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      <p>  现代所谓的经济学家们认为让市场来提供公共服务是最有效率的，总览他们的皇皇巨著其实都有一个前提：这个世界存在一个自由市场。可是我们知道，专利的壁垒、技术的壁垒、规模的壁垒、教育的壁垒无处不在，事实上你想开个夜宵摊都是不自由的，花钱就能够建立一所学校的想法更是荒谬的。<br>  我们都希望生活在一个有医院、有学校、有警察、有法院、有公交、有超市、无污染的现代社会。建立这样一个社会需要投入的人力物力并且使之有效率的运行起来，所需要筹集的资源，相对于这个世界的生产力而言，称不上巨大2字。毕竟大清帝国都能够开粥厂。<br>可是要在一个纯粹的私有制的社会实现这一点却非常困难。那些空想社会主义者遇到的阻力，并不来自于市场。而是来自私有制所带来的等级制度，那些没有钱、没有资源的人是愚蠢的、卑贱的、不值得帮助。为了根除这样的观念，美国人打了南北战争；中国人打了解放战争；这样的战争到今天还在世界的每一个角落继续着。直到今天这些社会功能也只能够惠及生活在都市圈的少数市民。</p>
+<p>  现代政治的目标就是：如何正确的使用组织的力量，从而尽可能低成本的实现这些社会功能。</p>
+<p>  组织力量的形成包括4个方面<br>1信息的生产2信息的传播3社会动员4信息阻断</p>
+<p>信息的生产包括3个内容：历史阐释、生活阐释、道德阐释<br>  我们不得不通过历史来向人们阐释，人类社会的兴衰存亡，向统治者和被统治者解释不同的组织形态和社会结构是如何分出高下的。例如：卢梭说野蛮战胜文明、马克思说资本取代封建、美国人认为多党制的民主社会才是历史的终结。<br>  我们不得不通过对生活的阐释，向统治者和被统治者解释不同的生活形态。是如何培育英雄又如何毁灭犯罪的。例如：美国人用自由企业制度来建监狱、苏联人用契卡来宣传斯达汉诺夫、柯南道尔眼中的反流浪法<br>  我们不得不通过对道德的阐释，向统治者和被统治者解释道德的本源何在。难道那些忠孝之道都不懂的人会给你一个更好的世界吗？难道那些纸醉金迷的人能够建立大同世界吗？难道大家一起吃盒饭就能够建成第一世界吗？难道白天打猎晚上批判哲学那不还是个贵族世界吗？</p>
+<p>  威权主义者认为所有制度完善的前提是承认既有的权力制度：我们掌握了所有的社会资源，你们对于改革的、改良的或者是革命的喧嚣都是一种徒劳的犯罪。你们安心在家吃潲水油、黑面包，听话 就会给你们好日子的<br>   精英主义者认为只有受过良好教育的人才能够完善社会制度：毕竟是我们在管理企业、发明药物。你们要提高自己的执行力，你们的悲剧根源在于你们又蠢又懒。<br>   工团主义者认为少数服从多数就是正义：社会资源不是给你们的保安买武器的、不是给你们到上海买游艇的。市中 心如果没有服务员的住宅就会堵车，乡里没有卫生所就会手足口流行。<br>   无政府主义者认为等级制度本身就是制约变革的主要因素。等级制度必然标志着一部分人可以压迫另一部分人。我们应该尊重人的自由意志。就像作家可以选择自己的出版社一样，煤矿里的工人应该可以决定煤交给谁。</p>
+<p>我们很容易知道<br>   威权主义的生活是清教徒式的、他们的道德也是保守主义的。不论是在美国还是在台湾，大部分的处长们都会自诩自己清廉、孝敬。你们应该彩衣娱亲陪老爷子打打麻将是正经<br>   精英主义的生活是消费主义的、他们的道德是自由主义的。如果没有多样性的尝试，我们哪里来的创造力。你们应该买买买，香烟、酒精、冰毒才是灵感来源。消费才是经济的活力源泉。愿意死就去死好了。<br>   工团主义的生活军事化的、他们的道德是纯粹主义的。如果你的行为模式与众不同，你甚至不能够在集会时贡献自己的微薄力量，我们为什么要接纳你。大家要狠斗私字一闪念，不要穿喇叭裤。<br>   无政府主义的生活是自由化的、他们的道德是相对主义的。只学习马列是成不了哲学家的。给老人让座是一种道德的试炼，至于你认为50是老人还是80才是老人看你自己。</p>
+<p>一个出色的组织者的首要目标是发现并培养自己的信息生产者。马克思之于恩格斯。卢梭之于华伦夫人。今天要一个人独自写出合乎一个时代胃口的三大阐释已经越来越难了。幸运的是大众对历史/生活与道德正在形成更加明晰的观点。即便是最支持威权主义者的五毛也明白：一个开放的行政系统的重要性。哪个公务员想面对《我不是潘金莲》之中的窘境呢？至少海带都明白：勤劳专注本身也来源于阶级差异。毕竟《雾都孤儿》已经不只是伦敦的都市传说。即便是最念旧的苏联人也知道：按资历分配不是一个解决方案。如果当年分房子的时候，不玩那么多花样可能今天又是一种结局吧！即使是安迪也懂得，武训的人生是一场悲剧。如果你不扯下头巾/剪掉辫子/放开小脚，那么黑寡妇的炸弹/红眼睛的阿义/杜月笙的麻袋都会成为正义的化身。</p>
+<p>威权主义者大多是高雅的传统艺术的爱好者。戏剧歌剧需要长久的训练，大量的道具，必须的场馆。越是成名成家，演员编剧导演就越是离不开威权主义者的支持。要控制他们很容易。<br>精英主义者大多是先锋艺术的爱好者。只要能够吸引人对他们而言肚皮舞还是大腿舞/野兽派还是抽象派都不算问题。他们都离不开毒品和金钱<br>工团主义者大都是民间艺术的爱好者。一件简单乐器所能够给予的快乐，远远超过黄钟大吕。合唱群舞才是社会动员的关键。能够画油画固然很好，最好是能够画漫画。宣传工作是大事不要自由发挥。<br>无政府主义者大都是哲学爱好者。如果你没有受过训练，你甚至无法从他们的作品之中看出相应的观点。这甚或是19世纪无政府主义者失败的原因吧。</p>
+
+      
+    </div>
+    
+      <div class="full-width auto-padding tags">
+        
+          <a href="/tags/社会学/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>社会学</a>
+        
+          <a href="/tags/革命/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>革命</a>
+        
+          <a href="/tags/动员/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>动员</a>
+        
+      </div>
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+          <div class="post-wrapper">
+            <article class="post reveal ">
+  
+
+
+  <section class="meta">
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  <h2 class="title">
+    <a href="/2018/09/07/jin-ri-geng-xin/">
+      革命的原理
+    </a>
+  </h2>
+
+
+      
+      <div class="new-meta-box">
+        
+          
+        
+          
+            
+  <div class="new-meta-item author">
+    <a href="http://yoursite.com" rel="nofollow">
+      
+        <i class="fas fa-user" aria-hidden="true"></i>
+      
+      <p>张名桢</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2018-09-07</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  
+  <div class="new-meta-item category">
+    <a href="/categories/革命/" rel="nofollow">
+      <i class="fas fa-folder-open" aria-hidden="true"></i>
+      <p>革命</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+    </div>
+    
+      <div class="full-width auto-padding tags">
+        
+          <a href="/tags/社会学/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>社会学</a>
+        
+          <a href="/tags/伦理/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>伦理</a>
+        
+          <a href="/tags/苦闷/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>苦闷</a>
+        
+      </div>
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+      
+        
+      
+    
+  </section>
+  
+    
+    <!-- 根据主题中的设置决定是否在archive中针对摘要部分的MathJax公式加载mathjax.js文件 -->
+    
+    
+
+  
+
+
+    
+  
+
+</div>
+<aside class="l_side">
+  
+    
+    
+      
+        
+          
+          
+            <section class="widget author">
+  <div class="content blue">
+    
+      <div class="avatar">
+        <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png">
+      </div>
+    
+    
+    
+      <div class="social-wrapper">
+        
+          
+            <a href="/atom.xml" class="social fas fa-rss flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
             </a>
-            <hgroup>
-              <h1 class="header-author"><a href="/" title="回到主页">张名桢</a></h1>
-            </hgroup>
-            
-            <p class="header-subtitle">为您坚守梦想</p>
-            
-            <nav class="header-menu">
-                <ul>
-                
-                    <li><a href="/archives/">所有文章</a></li>
-                
-                    <li><a href="/categories/开发工具/">玩转开发工具</a></li>
-                
-                    <li><a href="/categories/digital">玩转数码</a></li>
-                
-                    <li><a href="/categories/algorithm">算法学习</a></li>
-                
-                    <li><a href="/about/">关于我</a></li>
-                
-                <div class="clearfix"></div>
-                </ul>
-            </nav>
-            <nav class="header-nav">
-                <div class="social">
-                    
-                        <a class="github" target="_blank" href="/xxxxx" title="github">github</a>
-                    
-                        <a class="weibo" target="_blank" href="/xxxxxxxx" title="weibo">weibo</a>
-                    
-                        <a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
-                    
-                </div>
-            </nav>
-        </header>
-    </div>
-</nav>
-      <div class="body-wrap">
-  
-  
+          
+        
+          
+            <a href="mailto:me@xaoxuu.com" class="social fas fa-envelope flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+          
+            <a href="https://github.com/xaoxuu" class="social fab fa-github flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+          
+            <a href="https://music.163.com/#/user/home?id=63035382" class="social fas fa-headphones-alt flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+      </div>
     
-    
+  </div>
+</section>
+
+          
+        
       
+        
+          
+          
+            
+
+          
+        
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2018" class="archive-year">2018</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2018/09/07/jin-ri-geng-xin/" class="archive-article-date">
-      <time datetime="2018-09-07T01:25:00.000Z" itemprop="datePublished">09-07</time>
-</a>
-
-        </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/09/07/jin-ri-geng-xin/">革命的原理</a>
-    </h1>
-  
-
-
-        <div class="article-info info-on-archive">
+        
           
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/革命/">革命</a>
-    </div>
-
-
           
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/伦理/">伦理</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/社会学/">社会学</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/苦闷/">苦闷</a></li></ul>
-    </div>
+            <section class="widget grid">
+  
+<header class="blue">
+  <div><i class="fas fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;站内导航</div>
+  
+</header>
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
+  <div class="content blue">
+    <ul class="grid navgation">
+      
+        <li><a class="flat-box" title="/" href="/" id="home">
+          
+            <i class="fas fa-clock fa-fw" aria-hidden="true"></i>
+          
+          近期文章
+        </a></li>
+      
+        <li><a class="flat-box" title="/blog/archives/" href="/blog/archives/" rel="nofollow" id="blogarchives">
+          
+            <i class="fas fa-archive fa-fw" aria-hidden="true"></i>
+          
+          改变世界
+        </a></li>
+      
+        <li><a class="flat-box" title="/projects/" href="/projects/" id="projects">
+          
+            <i class="fas fa-code-branch fa-fw" aria-hidden="true"></i>
+          
+          改变自己
+        </a></li>
+      
+        <li><a class="flat-box" title="/friends/" href="/friends/" rel="nofollow" id="friends">
+          
+            <i class="fas fa-link fa-fw" aria-hidden="true"></i>
+          
+          加入我们
+        </a></li>
+      
+        <li><a class="flat-box" title="https://xaoxuu.com/wiki/material-x/" href="https://xaoxuu.com/wiki/material-x/" rel="nofollow" id="https:xaoxuu.comwikimaterial-x">
+          
+            <i class="fas fa-book fa-fw" aria-hidden="true"></i>
+          
+          诉说理想
+        </a></li>
+      
+        <li><a class="flat-box" title="/about/" href="/about/" rel="nofollow" id="about">
+          
+            <i class="fas fa-info-circle fa-fw" aria-hidden="true"></i>
+          
+          寻求帮助
+        </a></li>
+      
+    </ul>
   </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2018/09/07/ge-ming/" class="archive-article-date">
-      <time datetime="2018-09-07T01:25:00.000Z" itemprop="datePublished">09-07</time>
-</a>
-
-        </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/09/07/ge-ming/">革命的原理</a>
-    </h1>
-  
-
-
-        <div class="article-info info-on-archive">
-          
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/革命/">革命</a>
-    </div>
-
+</section>
 
           
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/伦理/">伦理</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/社会学/">社会学</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/苦闷/">苦闷</a></li></ul>
-    </div>
+        
+      
+        
+          
+          
+            
+  <section class="widget category">
+    
+<header class="blue">
+  <div><i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;文章分类</div>
+  
+    <a class="rightBtn" rel="nofollow" href="/blog/categories/" title="blog/categories/">
+    <i class="fas fa-expand-arrows-alt fa-fw"></i></a>
+  
+</header>
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
+    <div class="content blue">
+      <ul class="entry">
+        
+          <li><a class="flat-box" title="/categories/看电影谈教育/" href="/categories/看电影谈教育/"><div class="name">看电影谈教育</div><div class="badge">(2)</div></a></li>
+        
+          <li><a class="flat-box" title="/categories/革命/" href="/categories/革命/"><div class="name">革命</div><div class="badge">(4)</div></a></li>
+        
+      </ul>
+    </div>
+  </section>
+
+
+          
+        
+      
+        
+          
+          
+            
+  <section class="widget tagcloud">
+    
+<header class="blue">
+  <div><i class="fas fa-fire fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;热门标签</div>
+  
+    <a class="rightBtn" rel="nofollow" href="/blog/tags/" title="blog/tags/">
+    <i class="fas fa-expand-arrows-alt fa-fw"></i></a>
+  
+</header>
+
+    <div class="content blue">
+      <a href="/tags/伦理/" style="font-size: 20.67px; color: #6c6c6c">伦理</a> <a href="/tags/写作/" style="font-size: 17.33px; color: #828282">写作</a> <a href="/tags/动员/" style="font-size: 20.67px; color: #6c6c6c">动员</a> <a href="/tags/历史/" style="font-size: 17.33px; color: #828282">历史</a> <a href="/tags/影评/" style="font-size: 17.33px; color: #828282">影评</a> <a href="/tags/教育学/" style="font-size: 17.33px; color: #828282">教育学</a> <a href="/tags/演讲素材/" style="font-size: 17.33px; color: #828282">演讲素材</a> <a href="/tags/现代史/" style="font-size: 14px; color: #999">现代史</a> <a href="/tags/社会学/" style="font-size: 24px; color: #555">社会学</a> <a href="/tags/苦闷/" style="font-size: 17.33px; color: #828282">苦闷</a> <a href="/tags/革命/" style="font-size: 14px; color: #999">革命</a>
+    </div>
+  </section>
+
+
+          
+        
+      
+        
+          
+          
+            
+
+
+  <section class="widget music">
+    
+<header class="blue">
+  <div><i class="fas fa-compact-disc fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;最近在听</div>
+  
+    <a class="rightBtn" rel="external nofollow noopener noreferrer" target="_blank" href="https://music.163.com/#/user/home?id=63035382" title="https://music.163.com/#/user/home?id=63035382">
+    <i class="far fa-heart fa-fw"></i></a>
+  
+</header>
+
+    <div class="content blue">
+      
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.css">
+  <div class="aplayer" data-theme="#1BCDFC" data-mode="circulation" data-server="netease" data-type="playlist" data-id="2615636388" data-volume="0.7">
   </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2018/09/07/xian-dai-zheng-zhi/" class="archive-article-date">
-      <time datetime="2018-09-07T01:25:00.000Z" itemprop="datePublished">09-07</time>
-</a>
-
-        </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/09/07/xian-dai-zheng-zhi/">现代政治</a>
-    </h1>
-  
+  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/meting@1.1.0/dist/Meting.min.js"></script>
 
 
-        <div class="article-info info-on-archive">
-          
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/革命/">革命</a>
     </div>
+  </section>
 
 
           
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/动员/">动员</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/社会学/">社会学</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/革命/">革命</a></li></ul>
-    </div>
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2018/09/07/xin-pin/" class="archive-article-date">
-      <time datetime="2018-09-07T01:25:00.000Z" itemprop="datePublished">09-07</time>
-</a>
-
-        </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/09/07/xin-pin/">革命的原理</a>
-    </h1>
-  
-
-
-        <div class="article-info info-on-archive">
-          
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/革命/">革命</a>
-    </div>
-
-
-          
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/伦理/">伦理</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/社会学/">社会学</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/苦闷/">苦闷</a></li></ul>
-    </div>
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2018/09/07/3k-dang-de-peng-you-men/" class="archive-article-date">
-      <time datetime="2018-09-07T01:25:00.000Z" itemprop="datePublished">09-07</time>
-</a>
-
-        </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/09/07/3k-dang-de-peng-you-men/">3k党的朋友们</a>
-    </h1>
-  
-
-
-        <div class="article-info info-on-archive">
-          
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/革命/">革命</a>
-    </div>
-
-
-          
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/伦理/">伦理</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/现代史/">现代史</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/社会学/">社会学</a></li></ul>
-    </div>
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
+        
+      
     
 
+  
+</aside>
 
+<footer id="footer" class="clearfix">
+  
+  
+    <div class="social-wrapper">
+      
+        
+          <a href="/atom.xml" class="social fas fa-rss flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="mailto:me@xaoxuu.com" class="social fas fa-envelope flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="https://github.com/xaoxuu" class="social fab fa-github flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="https://music.163.com/#/user/home?id=63035382" class="social fas fa-headphones-alt flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+    </div>
+  
+  <br>
+  <div><p>博客内容遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
 </div>
-      <footer id="footer">
-    <div class="outer">
-        <div id="footer-info">
-            <div class="footer-left">
-                &copy; 2019 张名桢
-            </div>
-            <div class="footer-right">
-                <a href="http://hexo.io/" target="_blank">Hexo &nbsp;&nbsp;</a><a href="https://github.com/maochunguang" target="_blank">Blog</a> by tommy
-            </div>
-        </div>
-        
-            <div class="visit">
-                
-                    <span id="busuanzi_container_site_pv" style="display:none">
-                        <span id="site-visit">极客到访数: 
-                            <span id="busuanzi_value_site_uv"></span>
-                        </span>
-                    </span>
-                
-                
-                    <span>, </span>
-                
-                
-                    <span id="busuanzi_container_page_pv" style="display:none">
-                        <span id="page-visit">本页阅读量: 
-                            <span id="busuanzi_value_page_pv"></span>
-                        </span>
-                    </span>
-                
-            </div>
-        
-    </div>
+  <div>
+    本站使用
+    <a href="https://xaoxuu.com/wiki/material-x/" target="_blank" class="codename">心灵革命</a>
+    作为主题
+    
+      ，
+      总访问量为
+      <span id="busuanzi_value_site_pv"><i class="fas fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span>
+      次
+    
+    。
+  </div>
 </footer>
+<script>setLoadingBarProgress(80);</script>
 
+
+      <script>setLoadingBarProgress(60);</script>
     </div>
-    
-<script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
-
-<script src="/js/main.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            var backgroundnum = 1;
-            var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
-            $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
-            $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
-        })
-    </script>
-
-
-<!-- Google Analytics -->
-<script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'xxxxx', 'auto');
-ga('send', 'pageview');
-
-</script>
-<!-- End Google Analytics -->
-
-
-
-	<script>
-	var _hmt = _hmt || [];
-	(function() {
-	  var hm = document.createElement("script");
-	  hm.src = "//hm.baidu.com/hm.js?xxxxxx";
-	  var s = document.getElementsByTagName("script")[0]; 
-	  s.parentNode.insertBefore(hm, s);
-	})();
-	</script>
-
-
-
-<div class="scroll" id="scroll">
-    <a href="#"><i class="fa fa-arrow-up"></i></a>
-    <a href="#comments"><i class="fa fa-comments-o"></i></a>
-    <a href="#footer"><i class="fa fa-arrow-down"></i></a>
-</div>
-<script>
-    $(document).ready(function() {
-        if ($("#comments").length < 1) {
-            $("#scroll > a:nth-child(2)").hide();
-        };
-    })
-</script>
-
-    <button class="hide-labels">TAG 开关</button>
-    
-<script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            $("button").click(function() {
-                $(".article-info").toggle(200);
-            });
-        });
-    </script>
-
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
-
-  <script language="javascript">
-    $(function() {
-        $("a[title]").each(function() {
-            var a = $(this);
-            var title = a.attr('title');
-            if (title == undefined || title == "") return;
-            a.data('title', title).removeAttr('title').hover(
-            function() {
-                var offset = a.offset();
-                $("<div id=\"anchortitlecontainer\"></div>").appendTo($("body")).html(title).css({
-                    top: offset.top - a.outerHeight() - 15,
-                    left: offset.left + a.outerWidth()/2 + 1
-                }).fadeIn(function() {
-                    var pop = $(this);
-                    setTimeout(function() {
-                        pop.remove();
-                    }, pop.text().length * 800);
-                });
-            }, function() {
-                $("#anchortitlecontainer").remove();
-            });
-        });
-    });
-</script>
-
-
+    <a class="s-top fas fa-arrow-up fa-fw" href='javascript:void(0)'></a>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+
+  <script>
+    var GOOGLE_CUSTOM_SEARCH_API_KEY = "";
+    var GOOGLE_CUSTOM_SEARCH_ENGINE_ID = "";
+    var ALGOLIA_API_KEY = "";
+    var ALGOLIA_APP_ID = "";
+    var ALGOLIA_INDEX_NAME = "";
+    var AZURE_SERVICE_NAME = "";
+    var AZURE_INDEX_NAME = "";
+    var AZURE_QUERY_KEY = "";
+    var BAIDU_API_ID = "";
+    var SEARCH_SERVICE = "hexo" || "hexo";
+    var ROOT = "/"||"/";
+    if(!ROOT.endsWith('/'))ROOT += '/';
+  </script>
+
+<script src="//instant.page/1.2.2" type="module" integrity="sha384-2xV8M5griQmzyiY3CDqh1dn4z3llDVqZDqzjzcY+jCBCk/a5fXJmuZ/40JJAPeoU"></script>
+
+
+  <script async src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      const $reveal = $('.reveal');
+      if ($reveal.length === 0) return;
+      const sr = ScrollReveal({ distance: 0 });
+      sr.reveal('.reveal');
+    });
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      Waves.attach('.flat-btn', ['waves-button']);
+      Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+      Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+      Waves.attach('.flat-box', ['waves-block']);
+      Waves.attach('.float-box', ['waves-block', 'waves-float']);
+      Waves.attach('.waves-image');
+      Waves.init();
+    });
+  </script>
+
+
+  <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@19.4.19/js/app.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@19.4.19/js/search.js"></script>
+
+
+
+
+<!-- 复制 -->
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+  let COPY_SUCCESS = "复制成功";
+  let COPY_FAILURE = "复制失败";
+  /*页面载入完成后，创建复制按钮*/
+  !function (e, t, a) {
+    /* code */
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '  <i class="fa fa-copy"></i><span>复制</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+
+      clipboard.on('success', function(e) {
+        //您可以加入成功提示
+        console.info('Action:', e.action);
+        console.info('Text:', e.text);
+        console.info('Trigger:', e.trigger);
+        success_prompt(COPY_SUCCESS);
+        e.clearSelection();
+      });
+      clipboard.on('error', function(e) {
+        //您可以加入失败提示
+        console.error('Action:', e.action);
+        console.error('Trigger:', e.trigger);
+        fail_prompt(COPY_FAILURE);
+      });
+    }
+    initCopyCode();
+
+  }(window, document);
+
+  /**
+   * 弹出式提示框，默认1.5秒自动消失
+   * @param message 提示信息
+   * @param style 提示样式，有alert-success、alert-danger、alert-warning、alert-info
+   * @param time 消失时间
+   */
+  var prompt = function (message, style, time)
+  {
+      style = (style === undefined) ? 'alert-success' : style;
+      time = (time === undefined) ? 1500 : time*1000;
+      $('<div>')
+          .appendTo('body')
+          .addClass('alert ' + style)
+          .html(message)
+          .show()
+          .delay(time)
+          .fadeOut();
+  };
+
+  // 成功提示
+  var success_prompt = function(message, time)
+  {
+      prompt(message, 'alert-success', time);
+  };
+
+  // 失败提示
+  var fail_prompt = function(message, time)
+  {
+      prompt(message, 'alert-danger', time);
+  };
+
+  // 提醒
+  var warning_prompt = function(message, time)
+  {
+      prompt(message, 'alert-warning', time);
+  };
+
+  // 信息提示
+  var info_prompt = function(message, time)
+  {
+      prompt(message, 'alert-info', time);
+  };
+
+</script>
+
+
+<!-- fancybox -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script>
+  let LAZY_LOAD_IMAGE = "";
+  $(".article-entry").find("fancybox").find("img").each(function () {
+      var element = document.createElement("a");
+      $(element).attr("data-fancybox", "gallery");
+      $(element).attr("href", $(this).attr("src"));
+      /* 图片采用懒加载处理时,
+       * 一般图片标签内会有个属性名来存放图片的真实地址，比如 data-original,
+       * 那么此处将原本的属性名src替换为对应属性名data-original,
+       * 修改如下
+       */
+       if (LAZY_LOAD_IMAGE) {
+         $(element).attr("href", $(this).attr("data-original"));
+       }
+      $(this).wrap(element);
+  });
+</script>
+
+
+
+
+
+  <script>setLoadingBarProgress(100);</script>
 </body>
 </html>

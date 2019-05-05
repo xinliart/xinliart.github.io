@@ -2,469 +2,944 @@
 <html>
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="utf-8">
-  <meta name="baidu-site-verification" content="L6Lm9d5Crl">
-  
-   
-    <meta name="keywords" content="演讲素材">
-  
-  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
   <title>Tag: 演讲素材 | 心灵革命</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="心理咨询 在线秘书 抑郁 自杀 梦想 革命 社会学 心理学 零审查博客 自由 写作 成长 教育 苦闷">
+  
+  
   <meta name="description" content="本心理援助中心每天提供20小时免费的秘书服务">
-<meta name="keywords" content="心理咨询 在线秘书 抑郁 自杀 梦想 革命 社会学 心理学 零审查博客 自由 写作 成长 教育 苦闷">
-<meta property="og:type" content="website">
-<meta property="og:title" content="心灵革命">
-<meta property="og:url" content="http://yoursite.com/tags/演讲素材/index.html">
-<meta property="og:site_name" content="心灵革命">
-<meta property="og:description" content="本心理援助中心每天提供20小时免费的秘书服务">
-<meta property="og:locale" content="zh-CN">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="心灵革命">
-<meta name="twitter:description" content="本心理援助中心每天提供20小时免费的秘书服务">
   
-    <link rel="alternative" href="/atom.xml" title="心灵革命" type="application/atom+xml">
+
   
+  <link rel="alternate" href="/atom.xml" title="心灵革命">
   
-    <link rel="icon" href="/img/favicon.png">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- meta -->
   
+
+  <!-- link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
   
-  <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css">
   
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.6.3/css/all.min.css">
   
+
   
-      <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
   
-  <!-- 加载特效 -->
-    <script src="/js/pace.js"></script>
-    <link href="/css/pace/pace-theme-flash.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@19.4.19/css/style.css">
+  
+
   <script>
-      var yiliaConfig = {
-          fancybox: true,
-          animate: true,
-          isHome: false,
-          isPost: false,
-          isArchive: false,
-          isTag: true,
-          isCategory: false,
-          open_in_new: false
-      }
+    function setLoadingBarProgress(num) {
+      document.getElementById('loading-bar').style.width=num+"%";
+    }
   </script>
-</head></html>
+
+  
+  
+</head>
+
 <body>
-  <div id="container">
-    <div class="left-col">
-    <div class="overlay"></div>
-<div class="intrude-less">
-    <header id="header" class="inner">
+  
+  
+  <div class="cover-wrapper">
+    <cover class="cover  half">
+      
         
-<script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+  <h1 class="title">Material X</h1>
 
-        <a href="/" class="profilepic">
-            
-            <img lazy-src="/img/avatar.png" class="js-avatar">
-            
-        </a>
-        <hgroup>
-          <h1 class="header-author"><a href="/">张名桢</a></h1>
-        </hgroup>
-        
-        <p class="header-subtitle">为您坚守梦想</p>
-        
-        
-            <form>
-                <input type="text" class="st-default-search-input search" id="local-search-input" placeholder="搜索一下" autocomplete="off">
-            </form>
-            <div id="local-search-result"></div>
-        
-        
-            <script type="text/javascript">
-                (function() {
-                    'use strict';
-                    function getMatchData(keyword, data) {
-                        var matchData = [];
-                        for(var i =0;i<data.length;i++){
-                            if(data[i].title.toLowerCase().indexOf(keyword)>=0) 
-                                matchData.push(data[i])
-                        }
-                        return matchData;
-                    }
-                    var $input = $('#local-search-input');
-                    var $resultContent = $('#local-search-result');
-                    $input.keyup(function(){
-                        $.ajax({
-                            url: '/search.json',
-                            dataType: "json",
-                            success: function( json ) {
-                                var str='<ul class=\"search-result-list\">';                
-                                var keyword = $input.val().trim().toLowerCase();
-                                $resultContent.innerHTML = "";
-                                if ($input.val().trim().length <= 0) {
-                                    $resultContent.empty();
-                                    $('#switch-area').show();
-                                    return;
-                                }
-                                var results = getMatchData(keyword, json);
-                                if(results.length === 0){
-                                    $resultContent.empty();
-                                    $('#switch-area').show();
-                                    return;
-                                } 
-                                for(var i =0; i<results.length; i++){
-                                    str += "<li><a href='"+ results[i].url +"' class='search-result-title'>"+ results[i].title +"</a></li>";
-                                }
-                                str += "</ul>";
-                                $resultContent.empty();
-                                $resultContent.append(str);
-                                $('#switch-area').hide();
-                            }
-                        });
-                    });
-                })();
-            </script>
-        
-        
-            <div id="switch-btn" class="switch-btn">
-                <div class="icon">
-                    <div class="icon-ctn">
-                        <div class="icon-wrap icon-house" data-idx="0">
-                            <div class="birdhouse"></div>
-                            <div class="birdhouse_holes"></div>
-                        </div>
-                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
-                            <div class="ribbon"></div>
-                        </div>
-                        
-                        <div class="icon-wrap icon-link hide" data-idx="2">
-                            <div class="loopback_l"></div>
-                            <div class="loopback_r"></div>
-                        </div>
-                        
-                        
-                        <div class="icon-wrap icon-me hide" data-idx="3">
-                            <div class="user"></div>
-                            <div class="shoulder"></div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="tips-box hide">
-                    <div class="tips-arrow"></div>
-                    <ul class="tips-inner">
-                        <li>菜单</li>
-                        <li>标签</li>
-                        
-                        <li>友情链接</li>
-                        
-                        
-                        <li>关于我</li>
-                        
-                    </ul>
-                </div>
-            </div>
-        
-        <div id="switch-area" class="switch-area">
-            <div class="switch-wrap">
-                <section class="switch-part switch-part1">
-                    <nav class="header-menu">
-                        <ul>
-                        
-                            <li><a href="/archives/">所有文章</a></li>
-                        
-                            <li><a href="/categories/开发工具/">玩转开发工具</a></li>
-                        
-                            <li><a href="/categories/digital">玩转数码</a></li>
-                        
-                            <li><a href="/categories/algorithm">算法学习</a></li>
-                        
-                            <li><a href="/about/">关于我</a></li>
-                        
-                        </ul>
-                    </nav>
-                    <nav class="header-nav">
-                        <ul class="social">
-                            
-                                <a class="fl github" target="_blank" href="/xxxxx" title="github">github</a>
-                            
-                                <a class="fl weibo" target="_blank" href="/xxxxxxxx" title="weibo">weibo</a>
-                            
-                                <a class="fl rss" target="_blank" href="/atom.xml" title="rss">rss</a>
-                            
-                        </ul>
-                    </nav>
-                </section>
-                
-                <section class="switch-part switch-part2">
-                    <div class="widget tagcloud" id="js-tagcloud">
-                        <a href="/tags/伦理/" style="font-size: 17.5px;">伦理</a> <a href="/tags/写作/" style="font-size: 10px;">写作</a> <a href="/tags/动员/" style="font-size: 12.5px;">动员</a> <a href="/tags/历史/" style="font-size: 10px;">历史</a> <a href="/tags/影评/" style="font-size: 10px;">影评</a> <a href="/tags/教育学/" style="font-size: 10px;">教育学</a> <a href="/tags/演讲素材/" style="font-size: 10px;">演讲素材</a> <a href="/tags/现代史/" style="font-size: 10px;">现代史</a> <a href="/tags/社会学/" style="font-size: 20px;">社会学</a> <a href="/tags/苦闷/" style="font-size: 15px;">苦闷</a> <a href="/tags/革命/" style="font-size: 10px;">革命</a>
-                    </div>
-                </section>
-                
-                
-                <section class="switch-part switch-part3">
-                    <div id="js-friends">
-                    
-                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://blog.csdn.net/baidu_21483933">csdn</a>
-                    
-                      <a target="_blank" class="main-nav-link switch-friends-link" href="https://segmentfault.com/blog/maocg_web">segmentfault</a>
-                    
-                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.jianshu.com/users/eb37ef89c746/latest_articles">简书</a>
-                    
-                    </div>
-                </section>
-                
-                
-                
-                <section class="switch-part switch-part4">
-                
-                    <div id="js-aboutme">爱动漫,爱游戏,爱编程,爱运动,爱的太多了!</div>
-                </section>
-                
-            </div>
-        </div>
-    </header>
+
+  <div class="m_search">
+    <form name="searchform" class="form u-search-form">
+      <input type="text" class="input u-search-input" placeholder>
+      <i class="icon fas fa-search fa-fw"></i>
+    </form>
+  </div>
+
+<div class="menu navgation">
+  <ul class="h-list">
+    
+      
+        <li>
+          <a class="nav home" href="/" id="home">
+            <i class="fas fa-rss fa-fw"></i>&nbsp;革命无罪
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home" href="/projects/" id="projects">
+            <i class="fas fa-code-branch fa-fw"></i>&nbsp;诉说理想
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home" href="/friends/" rel="nofollow" id="friends">
+            <i class="fas fa-link fa-fw"></i>&nbsp;轻松一下
+          </a>
+        </li>
+      
+        <li>
+          <a class="nav home" href="/about/" rel="nofollow" id="about">
+            <i class="fas fa-info-circle fa-fw"></i>&nbsp;寻求帮助
+          </a>
+        </li>
+      
+    
+  </ul>
 </div>
 
-    </div>
-    <div class="mid-col">
-      <nav id="mobile-nav">
-      <div class="overlay">
-          <div class="slider-trigger"></div>
-          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">张名桢</a></h1>
+      
+    </cover>
+    <header class="l_header blue">
+  <div id="loading-bar-wrapper">
+    <div id="loading-bar" class="blue"></div>
+  </div>
+
+	<div class="wrapper">
+		<div class="nav-main container container--flex">
+      <a class="logo flat-box" href="/">
+        
+          心灵革命
+        
+      </a>
+			<div class="menu navgation">
+				<ul class="h-list">
+          
+  					
+  						<li>
+								<a class="nav flat-box" href="/" id="home">
+									<i class="fas fa-grin fa-fw"></i>&nbsp;示例
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/blog/categories/" rel="nofollow" id="blogcategories">
+									<i class="fas fa-folder-open fa-fw"></i>&nbsp;分类
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/blog/tags/" rel="nofollow" id="blogtags">
+									<i class="fas fa-hashtag fa-fw"></i>&nbsp;标签
+								</a>
+							</li>
+      			
+  						<li>
+								<a class="nav flat-box" href="/blog/archives/" rel="nofollow" id="blogarchives">
+									<i class="fas fa-archive fa-fw"></i>&nbsp;归档
+								</a>
+							</li>
+      			
+      		
+				</ul>
+			</div>
+
+			
+				<div class="m_search">
+					<form name="searchform" class="form u-search-form">
+						<input type="text" class="input u-search-input" placeholder="搜索">
+						<i class="icon fas fa-search fa-fw"></i>
+					</form>
+				</div>
+			
+			<ul class="switcher h-list">
+				
+					<li class="s-search"><a class="fas fa-search fa-fw" href="javascript:void(0)"></a></li>
+				
+				<li class="s-menu"><a class="fas fa-bars fa-fw" href="javascript:void(0)"></a></li>
+			</ul>
+		</div>
+
+		<div class="nav-sub container container--flex">
+			<a class="logo flat-box"></a>
+			<ul class="switcher h-list">
+				<li class="s-comment"><a class="flat-btn fas fa-comments fa-fw" href="javascript:void(0)"></a></li>
+        
+          <li class="s-toc"><a class="flat-btn fas fa-list fa-fw" href="javascript:void(0)"></a></li>
+        
+			</ul>
+		</div>
+	</div>
+</header>
+	<aside class="menu-phone">
+    <header>
+		<nav class="menu navgation">
+      <ul>
+        
+          
+            <li>
+							<a class="nav flat-box" href="/" id="home">
+								<i class="fas fa-clock fa-fw"></i>&nbsp;最近更新
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/blog/archives/" rel="nofollow" id="blogarchives">
+								<i class="fas fa-archive fa-fw"></i>&nbsp;改变世界
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/projects/" id="projects">
+								<i class="fas fa-code-branch fa-fw"></i>&nbsp;改变自己
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/friends/" rel="nofollow" id="friends">
+								<i class="fas fa-link fa-fw"></i>&nbsp;加入我们
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="https://xaoxuu.com/wiki/material-x/" rel="nofollow" id="https:xaoxuu.comwikimaterial-x">
+								<i class="fas fa-book fa-fw"></i>&nbsp;诉说理想
+							</a>
+            </li>
+          
+            <li>
+							<a class="nav flat-box" href="/about/" rel="nofollow" id="about">
+								<i class="fas fa-info-circle fa-fw"></i>&nbsp;寻求帮助
+							</a>
+            </li>
+          
+       
+      </ul>
+		</nav>
+    </header>
+	</aside>
+<script>setLoadingBarProgress(40);</script>
+
+  </div>
+
+
+  <div class="l_body">
+    <div class='body-wrapper'>
+      
+<div class="l_main">
+  
+    
+      
+  <section class="post-list">
+    
+      
+        
+          
+            <div class="post-wrapper">
+              <article class="post reveal ">
+  
+
+
+  <section class="meta">
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  <h2 class="title">
+    <a href="/2018/09/07/jie-tou-mei-shi-ying-ping/">
+      《美食里的阶级》
+    </a>
+  </h2>
+
+
+      
+      <div class="new-meta-box">
+        
+          
+        
+          
+            
+  <div class="new-meta-item author">
+    <a href="http://yoursite.com" rel="nofollow">
+      
+        <i class="fas fa-user" aria-hidden="true"></i>
+      
+      <p>张名桢</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2018-09-07</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  
+  <div class="new-meta-item category">
+    <a href="/categories/看电影谈教育/" rel="nofollow">
+      <i class="fas fa-folder-open" aria-hidden="true"></i>
+      <p>看电影谈教育</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+  <div class="new-meta-item top-post">
+    <a class="notlink">
+      <i class="fas fa-angle-double-up" aria-hidden="true"></i>
+      <p>置顶</p>
+    </a>
+  </div>
+
+
+          
+        
       </div>
-    <div class="intrude-less">
-        <header id="header" class="inner">
-            <a href="/" class="profilepic">
-                
-                    <img lazy-src="/img/avatar.png" class="js-avatar">
-                
-            </a>
-            <hgroup>
-              <h1 class="header-author"><a href="/" title="回到主页">张名桢</a></h1>
-            </hgroup>
-            
-            <p class="header-subtitle">为您坚守梦想</p>
-            
-            <nav class="header-menu">
-                <ul>
-                
-                    <li><a href="/archives/">所有文章</a></li>
-                
-                    <li><a href="/categories/开发工具/">玩转开发工具</a></li>
-                
-                    <li><a href="/categories/digital">玩转数码</a></li>
-                
-                    <li><a href="/categories/algorithm">算法学习</a></li>
-                
-                    <li><a href="/about/">关于我</a></li>
-                
-                <div class="clearfix"></div>
-                </ul>
-            </nav>
-            <nav class="header-nav">
-                <div class="social">
-                    
-                        <a class="github" target="_blank" href="/xxxxx" title="github">github</a>
-                    
-                        <a class="weibo" target="_blank" href="/xxxxxxxx" title="weibo">weibo</a>
-                    
-                        <a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
-                    
-                </div>
-            </nav>
-        </header>
-    </div>
-</nav>
-      <div class="body-wrap">
-  
-  
-    
-    
       
+        <hr>
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2018" class="archive-year">2018</a>
-        </div>
-        <div class="archives">
+    </div>
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      <p>NETFLIX教你吃饭，还教你做人-<br>   NETFLIX 制作的纪录片&lt;街头美食&gt;第一季不是国际版的舌尖系列，也不是那种一心猎奇的旅游片。这剧集记录的是普通人如何用普通的家庭食品改变一个人、一个家庭、一个社区、一个国家的生活的。<br>这部现实主义纪录片每集介绍几位亚洲小摊贩。这些泰国、日本、印度、台湾、印尼、越南、新加坡的中年人在酷热街头，粗俗的集市里忍受各种变故。用青春去负担家庭的坎坷。他们用汗水与智慧让所有那些勉强的生活，变得有滋有味的故事。<br>   年轻人往往难于理解为什么历史是人民创造的，明明书上的每一句都写的是帝王将相才子佳人的故事啊。看过这些剧集，我们才会明白，并不是任何的社会制度和大英雄让人们生活更好，真正让人类生活步入正常轨道的是普通人的美德：<br>   是勇敢让曼谷的痣妇为自己开创一番天地，在官僚的眼睛里灯红酒绿的出卖身体居然比昼伏夜出的出卖面条更加光荣。但是，13岁的她在这个满是雏妓/人妖的陋巷里做出了自己人生选择。<br>   开平的难民千里跋涉到香港，资本主义的繁华并没有帮他摆脱被奴役的命运。是智慧让他抓住每个机会，才从香港的厨房苦工成长为新加坡的口碑名厨。<br>   印度小弟用和父亲完全一样的方式做菜，却让家人拥有了完全不一样的生活。帮助那个吸毒的哥哥到底是小弟的善良还是愚蠢呢？<br>   汉城的新妇面对家庭债务，居然不离婚，而是去忍受农贸市场里的恶心烤血肠气味，和丈夫相濡以沫。这份忠诚比之于朱丽叶有过之无不及。<br>   如果你不理解为什么儒教的《孝经》是威权主义的象征，可以看看这一集本该和睦的嘉义鱼头店主，是忍受了多少折磨才重塑了父慈子孝的信念<br>   西贡的妈妈忍受着丧子之痛，高利贷的逼迫。没有等待政府的保护与支持，恬静的洗着田螺。这一集对于社会不公的控诉振聋发聩，比美国扔在越南的所有炸弹都要恐怖<br>   新加坡的汉人用无私与宽容帮助，振兴了穆斯林家族的米糕生意。那些纠结如何祈祷？如何穿衣？如何吃饭的人？真的心中有真理吗？<br>   在菲律宾一个近乎部落文化的海滨，一个老人秉持的居然不是部落战争式的排他文化。而是团结这些不同族裔、不同信仰的人，用不同的美食，让没有细沙的宿务海滩因为鳗鱼走向繁荣。<br>   这些贩夫走卒用并不规整的些微资源一点点的改变着自己和社群。他们不断发现真正能够令生活美好的东西，融合所有异质文化，创造新的传统。即便一团混乱，家无隔夜之梁，也时刻想着给孩子留下些什么。这才是文明诞生的本相吧<br>    生活在等级制度之下的我们，误以为是等级制度创造了文明。然而这剧集会用赏心悦目的美食告诉你：不是好勇斗狠的黑社会喂饱了疲劳的汉城人，不是偏执狂妄的西贡处长保护了西贡市民，不是艳羡西方的泰国官僚，吸引了游客。而是这些曾经的青年人：没有抛弃不识时务的父母，没有放弃沉迷毒品的兄弟，没有离开陷入债务的丈夫，没有抱怨专制无耻的制度，从零开始学习如何做一名厨师，在黑社会与税务局的驱赶下，把社会维持在正常的轨道上。<br>    是所有这些普普通通的人的爱，重建了社会秩序，这份代代相传的爱创造了美食和文明。这才是人民创造历史的方式。<br>   如果，你是一名旅行爱好者，一定不要错过这部剧集。他一定会彻底改变你打卡式旅游的恶习。<br>   当您下次看到小摊主递来的小面，留在朋友圈里的不只是五颜六色美食，还可以是人生的酸甜苦辣。<br>   当你漫步曼谷或者香港的街头的时候，闻到小店飘出的美味，一定还可以闻到另一种情韵<br>   或者你愿意为身边人创造自己的历史。</p>
+
+      
+    </div>
     
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2018/09/07/kan-dian-ying-tan-jiao-yu-zhi-yi/" class="archive-article-date">
-      <time datetime="2018-09-07T01:25:00.000Z" itemprop="datePublished">09-07</time>
-</a>
-
-        </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/09/07/kan-dian-ying-tan-jiao-yu-zhi-yi/">《罗马假日编剧是共产党》</a>
-    </h1>
-  
-
-
-        <div class="article-info info-on-archive">
-          
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/看电影谈教育/">看电影谈教育</a>
-    </div>
-
-
-          
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/写作/">写作</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/动员/">动员</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/历史/">历史</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/影评/">影评</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/教育学/">教育学</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/演讲素材/">演讲素材</a></li></ul>
-    </div>
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
+      <div class="full-width auto-padding tags">
+        
+          <a href="/tags/动员/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>动员</a>
+        
+          <a href="/tags/教育学/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>教育学</a>
+        
+          <a href="/tags/影评/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>影评</a>
+        
+          <a href="/tags/历史/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>历史</a>
+        
+          <a href="/tags/写作/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>写作</a>
+        
+          <a href="/tags/演讲素材/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>演讲素材</a>
+        
+      </div>
+    
+  </section>
 </article>
-  
-  
-    </div></section>
-  
 
-    
-
-
-</div>
-      <footer id="footer">
-    <div class="outer">
-        <div id="footer-info">
-            <div class="footer-left">
-                &copy; 2019 张名桢
             </div>
-            <div class="footer-right">
-                <a href="http://hexo.io/" target="_blank">Hexo &nbsp;&nbsp;</a><a href="https://github.com/maochunguang" target="_blank">Blog</a> by tommy
-            </div>
-        </div>
+          
         
-            <div class="visit">
-                
-                    <span id="busuanzi_container_site_pv" style="display:none">
-                        <span id="site-visit">极客到访数: 
-                            <span id="busuanzi_value_site_uv"></span>
-                        </span>
-                    </span>
-                
-                
-                    <span>, </span>
-                
-                
-                    <span id="busuanzi_container_page_pv" style="display:none">
-                        <span id="page-visit">本页阅读量: 
-                            <span id="busuanzi_value_page_pv"></span>
-                        </span>
-                    </span>
-                
-            </div>
+          
+            <div class="post-wrapper">
+              <article class="post reveal ">
+  
+
+
+  <section class="meta">
+    
+    
+    <div class="meta" id="header-meta">
+      
         
-    </div>
-</footer>
-
-    </div>
-    
-<script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
-
-<script src="/js/main.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            var backgroundnum = 1;
-            var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
-            $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
-            $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
-        })
-    </script>
+  <h2 class="title">
+    <a href="/2018/09/07/kan-dian-ying-tan-jiao-yu-zhi-yi/">
+      《罗马假日编剧是共产党》
+    </a>
+  </h2>
 
 
-<!-- Google Analytics -->
-<script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'xxxxx', 'auto');
-ga('send', 'pageview');
-
-</script>
-<!-- End Google Analytics -->
-
-
-
-	<script>
-	var _hmt = _hmt || [];
-	(function() {
-	  var hm = document.createElement("script");
-	  hm.src = "//hm.baidu.com/hm.js?xxxxxx";
-	  var s = document.getElementsByTagName("script")[0]; 
-	  s.parentNode.insertBefore(hm, s);
-	})();
-	</script>
-
-
-
-<div class="scroll" id="scroll">
-    <a href="#"><i class="fa fa-arrow-up"></i></a>
-    <a href="#comments"><i class="fa fa-comments-o"></i></a>
-    <a href="#footer"><i class="fa fa-arrow-down"></i></a>
-</div>
-<script>
-    $(document).ready(function() {
-        if ($("#comments").length < 1) {
-            $("#scroll > a:nth-child(2)").hide();
-        };
-    })
-</script>
-
-    <button class="hide-labels">TAG 开关</button>
-    
-<script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            $("button").click(function() {
-                $(".article-info").toggle(200);
-            });
-        });
-    </script>
-
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
-
-  <script language="javascript">
-    $(function() {
-        $("a[title]").each(function() {
-            var a = $(this);
-            var title = a.attr('title');
-            if (title == undefined || title == "") return;
-            a.data('title', title).removeAttr('title').hover(
-            function() {
-                var offset = a.offset();
-                $("<div id=\"anchortitlecontainer\"></div>").appendTo($("body")).html(title).css({
-                    top: offset.top - a.outerHeight() - 15,
-                    left: offset.left + a.outerWidth()/2 + 1
-                }).fadeIn(function() {
-                    var pop = $(this);
-                    setTimeout(function() {
-                        pop.remove();
-                    }, pop.text().length * 800);
-                });
-            }, function() {
-                $("#anchortitlecontainer").remove();
-            });
-        });
-    });
-</script>
-
-
+      
+      <div class="new-meta-box">
+        
+          
+        
+          
+            
+  <div class="new-meta-item author">
+    <a href="http://yoursite.com" rel="nofollow">
+      
+        <i class="fas fa-user" aria-hidden="true"></i>
+      
+      <p>张名桢</p>
+    </a>
   </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2018-09-07</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  
+  <div class="new-meta-item category">
+    <a href="/categories/看电影谈教育/" rel="nofollow">
+      <i class="fas fa-folder-open" aria-hidden="true"></i>
+      <p>看电影谈教育</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+  <div class="new-meta-item top-post">
+    <a class="notlink">
+      <i class="fas fa-angle-double-up" aria-hidden="true"></i>
+      <p>置顶</p>
+    </a>
+  </div>
+
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      <p>   戏剧对于人类的成长有格外重要的意义。唯有戏剧让我们有机会和孩子讨论，哪些是他们必然面对的困难、哪些是我们必须做出的牺牲。戏剧疗法也是心理学人对于儿童行为问题的正常处理方式（网瘾用电疗是错误的）。相比背诵《弟子规》这样的封建糟粕，这样的成长才更具有趣味与价值。毕竟为人父母首要责任是丰富孩子的信息接受范围：把那些学校里所不教的、不能教的、无法教的交给孩子一起讨论。从而完整孩子的价值观。</p>
+<p>  今天让我们看看一个美国共产党人在举世唾骂的情况下，是怎么样教育自己的孩子的。</p>
+<p>  特朗勃是18岁进入南加州大学导演系，在面包店里半工半读写了20年没有人看的剧本。在41岁功成名就的时候，接1947到了美国国会的传票，麦卡锡运动开始了，美国总统里根这时候还是好莱坞的小明星。里根在国会山作证：好莱坞有叛徒。特朗勃在面对非美活动调查委员会质询的时候，被要求回答：你是不是共产党。这是一个陷阱问题，如果，特朗勃否认那么一旦任何人指证，他大学时期参与过任何社会运动，他都不免伪证的牢狱之灾，而且会因之信誉扫地。如果他承认那么他将不得不进一步向国会交代，他见过什么人说过什么话，会给其他人带来无尽的麻烦，毁掉那些朋友的一生。而且这也有为之前他和那些一起策动好莱坞罢工的朋友们的约定。</p>
+<p>  拒绝回答问题的特朗勃，1950被判蔑视国会而入狱。1951出狱以后，他被好莱坞开除了，连补偿都没有。，搬到墨西哥依旧面对监视网。他意识到法庭不能给他公正，才华可以。以妻子的名义投稿女性杂志，养活家人。他开始为B级片制片人法兰克KING写作剧本。特朗勃夜以继日的写作，为他的朋友们提供财务支持。52年伊丽莎白女王继位的新闻热潮下，特朗勃借机写下《罗马假日》交给好友亨特发表。当年亨特就得到了奥斯卡。</p>
+<p>  当《勇敢的人》以之名再次获得奥斯卡最佳编剧奖的时候，黑名单对特朗勃而言已经名存实亡。71年特朗勃导演了《约翰尼上战场》这本他自己写于30年反战小说。这本小说曾经风行于日本。也不知道当年的日本人看了感觉美国人软弱呢？还是想到了正攻法的愚蠢？</p>
+<p>  75年肯尼迪总统看过《斯巴达克斯》以后，奥斯卡主动把《勇敢的人》的奖杯送给了特朗勃。76年特朗勃辞世享年七十岁。与他相濡以沫的妻子2002年辞世没有再婚。</p>
+<p>  您可以在和孩子一起看过2005年的影片《特朗勃》以后（优酷免费哦）一起讨论以下问题，以及我个人的推荐答案：</p>
+<p>a什么是非美活动委员会</p>
+<p>1938-1975尼克松他们搞的，确实有美国共产党，但是，清算很大程度是错误的，你的军队CIA内部进行政治审查，无可厚非。但是。人人都要讲清楚是荒诞的</p>
+<p>你怎么看她的女儿？</p>
+<p>杀人放火、伤天害理当然有理由大义灭亲。但是，当官僚想要扩张自己的权力的时候，会说生孩子是违背政策，说写作是反动派。所以，孔子说：子为父隐直在其中，不要评价你的家人，不要把你的家人交给他人论断。特朗勃三岁的女儿，面对自己幼儿园的好朋友也没有告诉她父亲在干什么，因为她明白《圣经》上那些眼中有梁木的人到处都是。世上的人总是有闲言碎语，是能够给人造成伤害的。这也是我为什么告诉你要有防人之心</p>
+<p>b你还害怕挫折吗？</p>
+<p>你知道那给老太婆是什么人吗/？海达霍帕，专栏作家，30年代影评大V，有3千万听众的她——-在那个女性连投票权的都没有的美国——-呼风唤雨。她是真正懂得自由与宽容的人，你看她开始觉得特朗勃的罢工妨碍了她看电影所以在报纸上揶揄抨击她，但是，当特朗勃上黑名单的时候，她表达了对这种违背宪法第一修正案的行为的憎恨，甚至主动为特朗勃寻求出路。</p>
+<p>c你觉得他是有天才吗？</p>
+<p>写作，无非积累素材、刨析思想、然后写下来</p>
+<p>尤其是剧本改编其实更加强调积累。写作艰难仅仅是因为你不爱这件事情。哪怕，特朗勃这样的奇才他也容不得打搅，要在浴缸里面每天工作9小时。</p>
+<p>积累是一个思考习惯问题，所以写下来才是更重要的事情</p>
+<p>d你认为他的老婆怎么样？</p>
+<p>相互保护是家庭成员的第一责任。所以你看那个送剧本的情节，他的女儿有反对的勇气，而他的儿子承担了家庭责任。这才是平等 家庭关系。显然，忙于工作的特朗勃家庭关系的维系得益于他贤惠的妻子。</p>
+<p>e你知道叛徒什么下场吗？</p>
+<p>爱德华•德米特里克，自1958年起便没再拍电影，《牛津电影词典》对此的评论是：“他已经丧失个性，乏善可陈了。</p>
+<p>f你支持特朗勃的政治观点吗？</p>
+<p>这些人是典型的白左，他们反对一切战争。战争确实不是解决问题的手段。但是，很多时候是表明态度的工具。比如，在朝鲜打一仗，美国就没有越过北纬17度线。你如果不坐到引擎盖上哭，是不会有人理你的。</p>
+<p>g你会怎么样对待不满意的工作？</p>
+<p>B级片是经济大萧条的产物，30年代初的3年，每周观众人数从1亿一千万降到6000万，电影公司为了赢得观众推出双片（double bill）的放映制度，基本上就是一部正片加一部B片。1935年10月RKO和米高梅影业在自己的一线影院推出双片放映，算是B片正式登台，一年之内四分之三的影院都采纳了双片制。原来的影院，一晚上一般是一部正片，一部新闻片，一部卡通片加预告片打成一个包，把卡通什么的升级成一部70分钟左右的低成本正片，算是吸引观众的方法。特朗勃写B级片的时候，已经功成名就，但是，他还是接下了1000美刀一个剧本的生意。并且抽空写了《勇敢的人》一个男孩看着自己拯救的小牛牺牲的斗牛场，知道故事的灵感来自哪里吗？———-仅仅是特朗勃在墨西哥旅行的时候，看到斗牛场人群欢呼的时候，有一个孩子沉默在那里。你看看天才就是这样观察生活，积累素材的。</p>
+
+      
+    </div>
+    
+      <div class="full-width auto-padding tags">
+        
+          <a href="/tags/动员/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>动员</a>
+        
+          <a href="/tags/教育学/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>教育学</a>
+        
+          <a href="/tags/影评/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>影评</a>
+        
+          <a href="/tags/历史/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>历史</a>
+        
+          <a href="/tags/写作/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>写作</a>
+        
+          <a href="/tags/演讲素材/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>演讲素材</a>
+        
+      </div>
+    
+  </section>
+</article>
+
+            </div>
+          
+        
+      
+    
+    
+      
+        
+      
+        
+      
+    
+  </section>
+  
+    
+    <!-- 根据主题中的设置决定是否在archive中针对摘要部分的MathJax公式加载mathjax.js文件 -->
+    
+    
+
+  
+
+
+    
+  
+</div>
+<aside class="l_side">
+  
+    
+    
+      
+        
+          
+          
+            <section class="widget author">
+  <div class="content blue">
+    
+      <div class="avatar">
+        <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png">
+      </div>
+    
+    
+    
+      <div class="social-wrapper">
+        
+          
+            <a href="/atom.xml" class="social fas fa-rss flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+          
+            <a href="mailto:me@xaoxuu.com" class="social fas fa-envelope flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+          
+            <a href="https://github.com/xaoxuu" class="social fab fa-github flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+          
+            <a href="https://music.163.com/#/user/home?id=63035382" class="social fas fa-headphones-alt flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+            </a>
+          
+        
+      </div>
+    
+  </div>
+</section>
+
+          
+        
+      
+        
+          
+          
+            
+
+          
+        
+      
+        
+          
+          
+            <section class="widget grid">
+  
+<header class="blue">
+  <div><i class="fas fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;站内导航</div>
+  
+</header>
+
+  <div class="content blue">
+    <ul class="grid navgation">
+      
+        <li><a class="flat-box" title="/" href="/" id="home">
+          
+            <i class="fas fa-clock fa-fw" aria-hidden="true"></i>
+          
+          近期文章
+        </a></li>
+      
+        <li><a class="flat-box" title="/blog/archives/" href="/blog/archives/" rel="nofollow" id="blogarchives">
+          
+            <i class="fas fa-archive fa-fw" aria-hidden="true"></i>
+          
+          改变世界
+        </a></li>
+      
+        <li><a class="flat-box" title="/projects/" href="/projects/" id="projects">
+          
+            <i class="fas fa-code-branch fa-fw" aria-hidden="true"></i>
+          
+          改变自己
+        </a></li>
+      
+        <li><a class="flat-box" title="/friends/" href="/friends/" rel="nofollow" id="friends">
+          
+            <i class="fas fa-link fa-fw" aria-hidden="true"></i>
+          
+          加入我们
+        </a></li>
+      
+        <li><a class="flat-box" title="https://xaoxuu.com/wiki/material-x/" href="https://xaoxuu.com/wiki/material-x/" rel="nofollow" id="https:xaoxuu.comwikimaterial-x">
+          
+            <i class="fas fa-book fa-fw" aria-hidden="true"></i>
+          
+          诉说理想
+        </a></li>
+      
+        <li><a class="flat-box" title="/about/" href="/about/" rel="nofollow" id="about">
+          
+            <i class="fas fa-info-circle fa-fw" aria-hidden="true"></i>
+          
+          寻求帮助
+        </a></li>
+      
+    </ul>
+  </div>
+</section>
+
+          
+        
+      
+        
+          
+          
+            
+  <section class="widget category">
+    
+<header class="blue">
+  <div><i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;文章分类</div>
+  
+    <a class="rightBtn" rel="nofollow" href="/blog/categories/" title="blog/categories/">
+    <i class="fas fa-expand-arrows-alt fa-fw"></i></a>
+  
+</header>
+
+    <div class="content blue">
+      <ul class="entry">
+        
+          <li><a class="flat-box" title="/categories/看电影谈教育/" href="/categories/看电影谈教育/"><div class="name">看电影谈教育</div><div class="badge">(2)</div></a></li>
+        
+          <li><a class="flat-box" title="/categories/革命/" href="/categories/革命/"><div class="name">革命</div><div class="badge">(4)</div></a></li>
+        
+      </ul>
+    </div>
+  </section>
+
+
+          
+        
+      
+        
+          
+          
+            
+  <section class="widget tagcloud">
+    
+<header class="blue">
+  <div><i class="fas fa-fire fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;热门标签</div>
+  
+    <a class="rightBtn" rel="nofollow" href="/blog/tags/" title="blog/tags/">
+    <i class="fas fa-expand-arrows-alt fa-fw"></i></a>
+  
+</header>
+
+    <div class="content blue">
+      <a href="/tags/伦理/" style="font-size: 20.67px; color: #6c6c6c">伦理</a> <a href="/tags/写作/" style="font-size: 17.33px; color: #828282">写作</a> <a href="/tags/动员/" style="font-size: 20.67px; color: #6c6c6c">动员</a> <a href="/tags/历史/" style="font-size: 17.33px; color: #828282">历史</a> <a href="/tags/影评/" style="font-size: 17.33px; color: #828282">影评</a> <a href="/tags/教育学/" style="font-size: 17.33px; color: #828282">教育学</a> <a href="/tags/演讲素材/" style="font-size: 17.33px; color: #828282">演讲素材</a> <a href="/tags/现代史/" style="font-size: 14px; color: #999">现代史</a> <a href="/tags/社会学/" style="font-size: 24px; color: #555">社会学</a> <a href="/tags/苦闷/" style="font-size: 17.33px; color: #828282">苦闷</a> <a href="/tags/革命/" style="font-size: 14px; color: #999">革命</a>
+    </div>
+  </section>
+
+
+          
+        
+      
+        
+          
+          
+            
+
+
+  <section class="widget music">
+    
+<header class="blue">
+  <div><i class="fas fa-compact-disc fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;最近在听</div>
+  
+    <a class="rightBtn" rel="external nofollow noopener noreferrer" target="_blank" href="https://music.163.com/#/user/home?id=63035382" title="https://music.163.com/#/user/home?id=63035382">
+    <i class="far fa-heart fa-fw"></i></a>
+  
+</header>
+
+    <div class="content blue">
+      
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.css">
+  <div class="aplayer" data-theme="#1BCDFC" data-mode="circulation" data-server="netease" data-type="playlist" data-id="2615636388" data-volume="0.7">
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/meting@1.1.0/dist/Meting.min.js"></script>
+
+
+    </div>
+  </section>
+
+
+          
+        
+      
+    
+
+  
+</aside>
+
+<footer id="footer" class="clearfix">
+  
+  
+    <div class="social-wrapper">
+      
+        
+          <a href="/atom.xml" class="social fas fa-rss flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="mailto:me@xaoxuu.com" class="social fas fa-envelope flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="https://github.com/xaoxuu" class="social fab fa-github flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+        
+          <a href="https://music.163.com/#/user/home?id=63035382" class="social fas fa-headphones-alt flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+          </a>
+        
+      
+    </div>
+  
+  <br>
+  <div><p>博客内容遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
+</div>
+  <div>
+    本站使用
+    <a href="https://xaoxuu.com/wiki/material-x/" target="_blank" class="codename">心灵革命</a>
+    作为主题
+    
+      ，
+      总访问量为
+      <span id="busuanzi_value_site_pv"><i class="fas fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span>
+      次
+    
+    。
+  </div>
+</footer>
+<script>setLoadingBarProgress(80);</script>
+
+
+      <script>setLoadingBarProgress(60);</script>
+    </div>
+    <a class="s-top fas fa-arrow-up fa-fw" href='javascript:void(0)'></a>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+
+  <script>
+    var GOOGLE_CUSTOM_SEARCH_API_KEY = "";
+    var GOOGLE_CUSTOM_SEARCH_ENGINE_ID = "";
+    var ALGOLIA_API_KEY = "";
+    var ALGOLIA_APP_ID = "";
+    var ALGOLIA_INDEX_NAME = "";
+    var AZURE_SERVICE_NAME = "";
+    var AZURE_INDEX_NAME = "";
+    var AZURE_QUERY_KEY = "";
+    var BAIDU_API_ID = "";
+    var SEARCH_SERVICE = "hexo" || "hexo";
+    var ROOT = "/"||"/";
+    if(!ROOT.endsWith('/'))ROOT += '/';
+  </script>
+
+<script src="//instant.page/1.2.2" type="module" integrity="sha384-2xV8M5griQmzyiY3CDqh1dn4z3llDVqZDqzjzcY+jCBCk/a5fXJmuZ/40JJAPeoU"></script>
+
+
+  <script async src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      const $reveal = $('.reveal');
+      if ($reveal.length === 0) return;
+      const sr = ScrollReveal({ distance: 0 });
+      sr.reveal('.reveal');
+    });
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      Waves.attach('.flat-btn', ['waves-button']);
+      Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+      Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+      Waves.attach('.flat-box', ['waves-block']);
+      Waves.attach('.float-box', ['waves-block', 'waves-float']);
+      Waves.attach('.waves-image');
+      Waves.init();
+    });
+  </script>
+
+
+  <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@19.4.19/js/app.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-material-x@19.4.19/js/search.js"></script>
+
+
+
+
+<!-- 复制 -->
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+  let COPY_SUCCESS = "复制成功";
+  let COPY_FAILURE = "复制失败";
+  /*页面载入完成后，创建复制按钮*/
+  !function (e, t, a) {
+    /* code */
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '  <i class="fa fa-copy"></i><span>复制</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+
+      clipboard.on('success', function(e) {
+        //您可以加入成功提示
+        console.info('Action:', e.action);
+        console.info('Text:', e.text);
+        console.info('Trigger:', e.trigger);
+        success_prompt(COPY_SUCCESS);
+        e.clearSelection();
+      });
+      clipboard.on('error', function(e) {
+        //您可以加入失败提示
+        console.error('Action:', e.action);
+        console.error('Trigger:', e.trigger);
+        fail_prompt(COPY_FAILURE);
+      });
+    }
+    initCopyCode();
+
+  }(window, document);
+
+  /**
+   * 弹出式提示框，默认1.5秒自动消失
+   * @param message 提示信息
+   * @param style 提示样式，有alert-success、alert-danger、alert-warning、alert-info
+   * @param time 消失时间
+   */
+  var prompt = function (message, style, time)
+  {
+      style = (style === undefined) ? 'alert-success' : style;
+      time = (time === undefined) ? 1500 : time*1000;
+      $('<div>')
+          .appendTo('body')
+          .addClass('alert ' + style)
+          .html(message)
+          .show()
+          .delay(time)
+          .fadeOut();
+  };
+
+  // 成功提示
+  var success_prompt = function(message, time)
+  {
+      prompt(message, 'alert-success', time);
+  };
+
+  // 失败提示
+  var fail_prompt = function(message, time)
+  {
+      prompt(message, 'alert-danger', time);
+  };
+
+  // 提醒
+  var warning_prompt = function(message, time)
+  {
+      prompt(message, 'alert-warning', time);
+  };
+
+  // 信息提示
+  var info_prompt = function(message, time)
+  {
+      prompt(message, 'alert-info', time);
+  };
+
+</script>
+
+
+<!-- fancybox -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script>
+  let LAZY_LOAD_IMAGE = "";
+  $(".article-entry").find("fancybox").find("img").each(function () {
+      var element = document.createElement("a");
+      $(element).attr("data-fancybox", "gallery");
+      $(element).attr("href", $(this).attr("src"));
+      /* 图片采用懒加载处理时,
+       * 一般图片标签内会有个属性名来存放图片的真实地址，比如 data-original,
+       * 那么此处将原本的属性名src替换为对应属性名data-original,
+       * 修改如下
+       */
+       if (LAZY_LOAD_IMAGE) {
+         $(element).attr("href", $(this).attr("data-original"));
+       }
+      $(this).wrap(element);
+  });
+</script>
+
+
+
+
+
+  <script>setLoadingBarProgress(100);</script>
 </body>
 </html>
